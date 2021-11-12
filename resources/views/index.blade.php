@@ -47,8 +47,7 @@
                     {{-- Feature --}}
                     <div class="col-lg-3">
                         <a href="/courses">
-                            <img class="bd-placeholder-img" width="50" height="50"
-                                src="https://img.icons8.com/external-konkapp-outline-color-konkapp/64/000000/external-online-course-online-learning-konkapp-outline-color-konkapp-1.png" />
+                            <img class="bd-placeholder-img" width="50" height="50" src="/images/icons/icons-courses.png" />
                         </a>
                         <h6 class="mt-4 display-10 fw-bold">Courses</h6>
                         <small>
@@ -60,8 +59,7 @@
                     {{-- Feature --}}
                     <div class="col-lg-3">
                         <a href="/webinars">
-                            <img class="bd-placeholder-img" width="50" height="50"
-                                src="https://img.icons8.com/external-kmg-design-outline-color-kmg-design/64/000000/external-webinar-work-from-home-kmg-design-outline-color-kmg-design.png" />
+                            <img class="bd-placeholder-img" width="50" height="50" src="/images/icons/icons-webinars.png" />
                         </a>
                         <h6 class="mt-4 display-10 fw-bold">Webinars</h6>
                         <small>
@@ -74,7 +72,7 @@
                     <div class="col-lg-3">
                         <a href="/competitions">
                             <img class="bd-placeholder-img" width="50" height="50"
-                                src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/64/000000/external-competition-esport-itim2101-lineal-color-itim2101-1.png" />
+                                src="/images/icons/icons-competitions.png" />
                         </a>
                         <h6 class="mt-4 display-10 fw-bold">Competitions</h6>
                         <small>
@@ -87,7 +85,7 @@
                     <div class="col-lg-3">
                         <a href="/scholarships">
                             <img class="bd-placeholder-img" width="50" height="50"
-                                src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-graduation-elearning-and-education-justicon-lineal-color-justicon.png" />
+                                src="/images/icons/icons-scholarships.png" />
                         </a>
                         <h6 class="mt-4 display-10 fw-bold">Scholarships</h6>
                         <small>
@@ -95,9 +93,10 @@
                         </small>
                     </div>
                     {{-- End of Feature --}}
+
                 </div>
-                {{-- End of Features --}}
             </div>
+            {{-- End of Features --}}
         </div>
         <!-- End Jumbotron -->
 
@@ -105,7 +104,6 @@
         <!-- START THE FEATURETTES -->
 
         <div class="container marketing">
-            <!-- START THE FEATURETTES -->
 
             <hr class="featurette-divider">
 
