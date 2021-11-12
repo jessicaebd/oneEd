@@ -15,6 +15,9 @@
   <!-- CSS Files -->
   <link rel="stylesheet" href="css/style.css">
 
+  <!-- Bootstrap core CSS -->
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
   <!--Favicon-->
   <link rel="icon" href="images/icon.png">
   <!--Animatecss-->
