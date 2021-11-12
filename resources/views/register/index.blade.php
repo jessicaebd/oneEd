@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 
   <!-- Main css -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/login.css">
 
   <!--Favicon-->
   <link rel="icon" href="images/icon.png">
@@ -58,7 +58,7 @@
                     href="#" class="term-service">Terms of service</a></label>
               </div>
               <div class="form-group form-button">
-                <a href="landing.html" class="btn btn-primary py-3 px-5 btn-custom" value="Register">
+                <a href="/register/success" class="btn btn-primary py-3 px-5 btn-custom" value="Register">
                   Register
                 </a>
               </div>

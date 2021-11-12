@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 
   <!-- Main css -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/login.css">
 
   <!--Favicon-->
   <link rel="icon" href="../img/icon.png">
@@ -54,7 +54,7 @@
                 <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
               </div>
               <div class="form-group form-button">
-                <a href="../dashboard/index.html" class="btn btn-primary py-3 px-5 btn-custom">
+                <a href="" class="btn btn-primary py-3 px-5 btn-custom">
                   Log In
                 </a>
               </div>

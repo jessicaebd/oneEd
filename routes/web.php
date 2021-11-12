@@ -31,6 +31,12 @@ Route::get('/register', function () {
   ]);
 });
 
+Route::get('/register/success', function () {
+  return view('register.success', [
+    'title' => 'Success'
+  ]);
+});
+
 Route::get('/login', function () {
   return view('login.index', [
     'title' => 'Login'
