@@ -10,7 +10,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link me-3" href="/courses"><b>Courses</b></a>
         </li>
@@ -25,7 +25,7 @@
         </li>
       </ul>
       
-      <a href="/login" class="btn btn-primary btn-custom me-3 btn-md">Register / Login</a>
+      <a href="/login" class="btn btn-primary btn-custom me-3 ms-3 btn-md">Register / Login</a>
     </div>
 
   </div>
