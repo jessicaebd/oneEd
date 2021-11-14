@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm p-2 bg-body bg-primary">
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm p-md-2 p-0 bg-body bg-primary">
   <div class="container-fluid">
 
-    <a class="navbar-brand me-5" href="/">
-      <img src="images/logo.png" alt="Logo" width="120" height="45" class="d-inline-block align-text-top">
+    <a class="navbar-brand" href="/">
+      <img src="images/logo2.png" alt="Logo" width="100%" height="40" class="d-inline-block align-text-top">
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"

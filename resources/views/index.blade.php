@@ -6,7 +6,7 @@
     class="jumbotron d-flex justify-content-left align-items-center bg-transparent mt-5 animate__animated animate__fadeIn animate_slower">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-sm-8 animate__animated animate__pulse animate__infinite ">
+        <div class="col-md-6 text-md-start text-center">
           <h1 style="font-size: 2 em;">
             <b>Belajar, Webinar,
               Lomba, dan Beasiswa
