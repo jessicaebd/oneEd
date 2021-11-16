@@ -42,7 +42,7 @@
 
             <div class="col-md-3 text-end">
                 <a href="/login" class="btn btn-outline-primary me-2 rounded-pill">Login</a>
-                <a href="/login" class="btn btn-primary rounded-pill">Register</a>
+                <a href="/register" class="btn btn-primary rounded-pill">Register</a>
             </div>
         </div>
     </div>

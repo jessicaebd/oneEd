@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index', [
-      'title' => 'Home'
-    ]);
+  return view('index', [
+    'title' => 'Home'
+  ]);
 });
 
 Route::get('/courses', function () {
@@ -25,20 +26,15 @@ Route::get('/courses', function () {
   ]);
 });
 
-Route::get('/register', function () {
-  return view('register.index', [
-    'title' => 'Register'
-  ]);
-});
-
-Route::get('/register/success', function () {
-  return view('register.success', [
-    'title' => 'Success'
-  ]);
-});
-
 Route::get('/login', function () {
   return view('login.index', [
     'title' => 'Login'
   ]);
 });
+
+
+Route::get('/register', [RegisterController::class, 'index'])->middleware('guest');
+
+Route::post('/register', [RegisterController::class, 'store']);
+
+Route::get('/register/success', [RegisterController::class, 'success']);
