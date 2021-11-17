@@ -88,3 +88,15 @@ footer {
         margin-top: 7rem;
     }
 }
+
+.feature {
+    transition: 250ms;
+}
+
+.feature:hover {
+    transform: translateY(0) scale(1.2);
+}
+
+a {
+    text-decoration: none;
+}

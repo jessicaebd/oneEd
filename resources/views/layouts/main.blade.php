@@ -24,8 +24,10 @@ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 <!--Aos Animate on scroll library-->
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!-- Bootstrap Icon -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
 
-
+<link rel="icon" type="image/png" href="images/logo2-only-logo.png">
 <title>{{ $title }} | OneEd</title>
 </head>
 

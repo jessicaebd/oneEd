@@ -86,23 +86,23 @@
     <!-- Social buttons -->
     <ul class="list-unstyled list-inline text-center">
         <li class="list-inline-item">
-            <a class="btn-floating btn-tw mx-1">
-                <i class="fab fa-twitter">whatsapp</i>
+            <a class="btn-floating btn-tw mx-1" href="https://whatsapp.com">
+                <i class="bi bi-whatsapp">Whatsapp</i>
             </a>
         </li>
         <li class="list-inline-item">
-            <a class="btn-floating btn-gplus mx-1">
-                <i class="fab fa-google-plus-g">twitter</i>
+            <a class="btn-floating btn-gplus mx-1" href="https://twitter.com">
+                <i class="bi bi-twitter">Twitter</i>
             </a>
         </li>
         <li class="list-inline-item">
-            <a class="btn-floating btn-li mx-1">
-                <i class="fab fa-linkedin-in">facebook</i>
+            <a class="btn-floating btn-li mx-1" href="https://facebook.com">
+                <i class="bi bi-facebook">Facebook</i>
             </a>
         </li>
         <li class="list-inline-item">
             <a class="btn-floating btn-dribbble mx-1" href="https://instagram.com">
-                <img src="https://img.icons8.com/ios/50/000000/instagram-new.png" />
+                <i class="bi bi-instagram">Instagram</i>
             </a>
         </li>
     </ul>

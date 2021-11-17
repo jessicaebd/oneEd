@@ -33,7 +33,7 @@
     width="72"
     height="57"
   /> --}}
-        <h3 class="display-10 fw-bold mb-3" data-aos="zoom-in">What we provide</h3>
+        <h3 class="display-10 fw-bold mb-3">What we provide</h3>
         <div class="col-lg-6 mx-auto">
             <p class="mb-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
@@ -44,7 +44,8 @@
                 <div class="row">
 
                     {{-- Feature --}}
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 feature">
+                        
                         <a href="/courses">
                             <img class="bd-placeholder-img" width="50" height="50" src="/images/icons/icons-courses.png" />
                         </a>
@@ -56,7 +57,7 @@
                     {{-- End of Feature --}}
 
                     {{-- Feature --}}
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 feature">
                         <a href="/webinars">
                             <img class="bd-placeholder-img" width="50" height="50" src="/images/icons/icons-webinars.png" />
                         </a>
@@ -68,7 +69,7 @@
                     {{-- End of Feature --}}
 
                     {{-- Feature --}}
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 feature">
                         <a href="/competitions">
                             <img class="bd-placeholder-img" width="50" height="50"
                                 src="/images/icons/icons-competitions.png" />
@@ -81,7 +82,7 @@
                     {{-- End of Feature --}}
 
                     {{-- Feature --}}
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 feature">
                         <a href="/scholarships">
                             <img class="bd-placeholder-img" width="50" height="50"
                                 src="/images/icons/icons-scholarships.png" />
