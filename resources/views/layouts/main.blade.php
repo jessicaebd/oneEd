@@ -22,6 +22,9 @@ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+
 <link rel="icon" href="images/icon.png">
 <!--Animatecss-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<!--Aos Animate on scroll library-->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 <title>{{ $title }} | OneEd</title>
 </head>
@@ -32,6 +35,11 @@ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+
     @yield('container')
 
     @include('partials.footer')
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
