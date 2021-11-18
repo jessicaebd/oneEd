@@ -13,25 +13,83 @@
                             @csrf
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="name" id="name" placeholder="Your Name" />
+                                <input type="text" name="name" id="name" placeholder="Your Name"
+                                    class="@error('name') is-invalid @enderror" required value="{{ old('name') }}">
+
+                                @error('name')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
                             </div>
+
                             <div class="form-group">
                                 <label for="email"><i class="zmdi zmdi-email"></i></label>
-                                <input type="email" name="email" id="email" placeholder="Your Email" />
+                                <input type="email" name="email" id="email" placeholder="Your Email"
+                                    class="@error('email') is-invalid @enderror" required value="{{ old('email') }}">
+
+                                @error('email')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
                             </div>
+
                             <div class="form-group">
-                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
-                                <input type="password" name="password" id="password" placeholder="Password" />
+                                <label for="password"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="password" id="password" placeholder="Password"
+                                    class="@error('password') is-invalid @enderror" required>
+
+                                @error('password')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
                             </div>
+
+                            <div class="form-group">
+                                <label for="password_confirmation"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="password" name="password_confirmation" id="password_confirmation"
+                                    placeholder="Repeat your password" class="@error('password') is-invalid @enderror"
+                                    required>
+
+                                @error('password')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
+                            </div>
+
+                            {{-- <div class=" form-group">
+                                <label for="password"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="password" id="password" placeholder="Password"
+                                    class="@error('password') is-invalid @enderror" required>
+
+                                @error('password')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
+                            </div>
+
                             <div class="form-group">
                                 <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
-                                <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password" />
-                            </div>
-                            <div class="form-group">
+                                <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"
+                                    class="@error('password') is-invalid @enderror" required>
+
+                                @error('password')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
+
+                            </div> --}}
+
+                            {{-- <div class="form-group">
                                 <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
                                 <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all
                                     statements in <a href="#" class="term-service">Terms of service</a></label>
-                            </div>
+                            </div> --}}
 
                             <button class="btn btn-primary py-3 px-5 btn-custom" type="submit">Register</button>
 

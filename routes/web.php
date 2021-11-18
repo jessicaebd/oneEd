@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\Auth\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +18,7 @@ Route::get('/', function () {
   return view('index', [
     'title' => 'Home'
   ]);
-});
+})->name('home');
 
 Route::get('/courses', function () {
   return view('courses.index', [
