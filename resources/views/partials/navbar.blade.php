@@ -40,10 +40,23 @@
                 </li>
             </ul>
 
-            <div class="col-md-4 text-end">
-                <a href="/login" class="btn btn-outline-primary me-2 rounded-pill">Login</a>
-                <a href="/register" class="btn btn-primary rounded-pill">Register</a>
-            </div>
+            @auth
+                <div class="col-md-4 text-end d-flex">
+                    <a href="/" class="btn btn-outline-primary me-3 rounded-pill">{{ auth()->user()->name }}</a>
+                    <form action="/logout" method="post">
+                        @csrf
+                        <button type="submit" class="btn btn-primary rounded-pill">Logout</button>
+                    </form>
+                </div>
+            @endauth
+
+            @guest
+                <div class="col-md-4 text-end">
+                    <a href="/login" class="btn btn-outline-primary me-2 rounded-pill">Login</a>
+                    <a href="/register" class="btn btn-primary rounded-pill">Register</a>
+                </div>
+            @endguest
+
         </div>
     </div>
 </nav>
