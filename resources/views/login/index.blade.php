@@ -13,24 +13,40 @@
 
                     <div class="signin-form">
                         <h2 class="form-title">Login</h2>
-                        <form method="POST" class="register-form" id="login-form">
+                        <form action="/login" method="POST" class="register-form" id="login-form">
+                            @csrf
                             <div class="form-group">
-                                <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="your_name" id="your_name" placeholder="Your Name" />
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" name="email" id="email" placeholder="Your Email"
+                                    class="@error('email') is-invalid @enderror" required value="{{ old('email') }}">
+
+                                @error('email')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
                             </div>
+
                             <div class="form-group">
-                                <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
-                                <input type="password" name="your_pass" id="your_pass" placeholder="Password" />
+                                <label for="password"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="password" id="password" placeholder="Password"
+                                    class="@error('password') is-invalid @enderror" required>
+
+                                @error('password')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
                             </div>
+
                             <div class="form-group">
-                                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+                                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" value="1">
                                 <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember
                                     me</label>
                             </div>
+
                             <div class="form-group form-button">
-                                <a href="" class="btn btn-primary py-3 px-5 btn-custom">
-                                    Log In
-                                </a>
+                                <button class="btn btn-primary py-3 px-5 btn-custom" type="submit">Log in</button>
                             </div>
                         </form>
                         <div class="social-login">
