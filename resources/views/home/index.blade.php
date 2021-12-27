@@ -6,101 +6,96 @@
         class="jumbotron d-flex justify-content-left align-items-center mt-5 animate__animated animate__fadeIn animate_slower">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-md-start text-center text-light">
+                <div class="col-md-7 text-md-start text-center text-light">
                     <h1 style="font-size: 2 em;">
-                        <b>Belajar, Webinar,
-                            Lomba, dan Beasiswa
+                        <b>Belajar, Webinar, Lomba, dan Beasiswa
                         </b>
                     </h1>
                     <h1 style="font-size: 2 em; color: rgb(186, 167, 255);">
                         <b>Dalam Satu Aplikasi
                         </b>
                     </h1>
-                    <a href="register" class="btn btn-primary fs-5 py-2 px-3 btn-custom mt-2">Yuk Join,
+                    <a href="register" class="btn btn-primary fs-5 py-2 px-3 btn-custom mt-4">Yuk Join,
                         <b>GRATIS!</b></a>
                 </div>
 
-                <div class="col-md-6 text-center d-none d-md-block py-5">
-                    <img src="images/logo/logo-1.png" alt="">
+                <div class="col-md-5 text-center d-none d-md-block py-4">
+                    <img src="images/logo/logo-1.png" alt="" height="200">
                 </div>
             </div>
         </div>
     </div>
-    <!-- End og Header -->
+    <!-- End of Header -->
 
-    <!-- Jumbotron -->
-    <div class="mb-5 py-5 text-center">
+    <!-- What We Provide -->
+    <div class="mb-5 py-5 text-center col-lg-6 mx-auto what-we-provide">
         <h3 class="display-10 fw-bold mb-3">What we provide</h3>
-        <div class="col-lg-6 mx-auto">
-            <p class="mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
-                voluptatem.
-            </p>
-            {{-- Features --}}
-            <div class="mt-5 d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <div class="row">
+        <p class="mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+            voluptatem.
+        </p>
 
-                    {{-- Feature --}}
-                    <div class="col-lg-3 feature">
+        {{-- Features --}}
+        <div class="mt-5 d-grid gap-3 d-sm-flex justify-content-sm-center">
+            <div class="row">
+                {{-- Feature --}}
+                <div class="col-lg-3 feature mb-4">
 
-                        <a href="/courses">
-                            <img class="bd-placeholder-img" width="50" height="50" src="/images/icons/icons-courses.png" />
-                        </a>
-                        <h6 class="mt-4 display-10 fw-bold">Courses</h6>
-                        <small>
-                            Lorem ipsum dolor sit amet.
-                        </small>
-                    </div>
-                    {{-- End of Feature --}}
-
-                    {{-- Feature --}}
-                    <div class="col-lg-3 feature">
-                        <a href="/webinars">
-                            <img class="bd-placeholder-img" width="50" height="50" src="/images/icons/icons-webinars.png" />
-                        </a>
-                        <h6 class="mt-4 display-10 fw-bold">Webinars</h6>
-                        <small>
-                            Lorem ipsum dolor sit amet.
-                        </small>
-                    </div>
-                    {{-- End of Feature --}}
-
-                    {{-- Feature --}}
-                    <div class="col-lg-3 feature">
-                        <a href="/competitions">
-                            <img class="bd-placeholder-img" width="50" height="50"
-                                src="/images/icons/icons-competitions.png" />
-                        </a>
-                        <h6 class="mt-4 display-10 fw-bold">Competitions</h6>
-                        <small>
-                            Lorem ipsum dolor sit amet.
-                        </small>
-                    </div>
-                    {{-- End of Feature --}}
-
-                    {{-- Feature --}}
-                    <div class="col-lg-3 feature">
-                        <a href="/scholarships">
-                            <img class="bd-placeholder-img" width="50" height="50"
-                                src="/images/icons/icons-scholarships.png" />
-                        </a>
-                        <h6 class="mt-4 display-10 fw-bold">Scholarships</h6>
-                        <small>
-                            Lorem ipsum dolor sit amet.
-                        </small>
-                    </div>
-                    {{-- End of Feature --}}
-
+                    <a href="/courses">
+                        <img class="bd-placeholder-img" width="50" height="50" src="/images/icons/icons-courses.png" />
+                    </a>
+                    <h6 class="mt-2 display-10 fw-bold">Courses</h6>
+                    <small>
+                        Lorem ipsum dolor sit amet.
+                    </small>
                 </div>
+                {{-- End of Feature --}}
+
+                {{-- Feature --}}
+                <div class="col-lg-3 feature mb-4">
+                    <a href="/webinars">
+                        <img class="bd-placeholder-img" width="50" height="50" src="/images/icons/icons-webinars.png" />
+                    </a>
+                    <h6 class="mt-2 display-10 fw-bold">Webinars</h6>
+                    <small>
+                        Lorem ipsum dolor sit amet.
+                    </small>
+                </div>
+                {{-- End of Feature --}}
+
+                {{-- Feature --}}
+                <div class="col-lg-3 feature mb-4">
+                    <a href="/competitions">
+                        <img class="bd-placeholder-img" width="50" height="50" src="/images/icons/icons-competitions.png" />
+                    </a>
+                    <h6 class="mt-2 display-10 fw-bold">Competitions</h6>
+                    <small>
+                        Lorem ipsum dolor sit amet.
+                    </small>
+                </div>
+                {{-- End of Feature --}}
+
+                {{-- Feature --}}
+                <div class="col-lg-3 feature mb-4">
+                    <a href="/scholarships">
+                        <img class="bd-placeholder-img" width="50" height="50" src="/images/icons/icons-scholarships.png" />
+                    </a>
+                    <h6 class="mt-2 display-10 fw-bold">Scholarships</h6>
+                    <small>
+                        Lorem ipsum dolor sit amet.
+                    </small>
+                </div>
+                {{-- End of Feature --}}
             </div>
-            {{-- End of Features --}}
         </div>
-        <!-- End Jumbotron -->
+        {{-- End of Features --}}
+    </div>
+    <!-- What We Provide -->
 
 
-        <!-- START THE FEATURETTES -->
+    <!-- START THE FEATURETTES --> --}}
 
-        {{-- <div class="container marketing">
+    {{-- <div class="container marketing">
 
             <hr class="featurette-divider">
 
@@ -188,14 +183,14 @@
             </div> --}}
 
 
-        <!-- /END THE FEATURETTES -->
+    <!-- /END THE FEATURETTES -->
 
-    </div><!-- /.container -->
-    </div>
+    {{-- </div><!-- /.container --> --}}
+    {{-- </div> --}}
 
 
 
-    </div>
+    {{-- </div> --}}
 
 
 @endsection
