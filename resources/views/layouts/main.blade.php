@@ -27,7 +27,7 @@ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+
 <!-- Bootstrap Icon -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
 
-<link rel="icon" type="image/png" href="images/logo2-only-logo.png">
+<link rel="icon" type="image/png" href="images/logo/logo-1.png">
 <title>{{ $title }} | OneEd</title>
 </head>
 
