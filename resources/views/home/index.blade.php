@@ -1,38 +1,35 @@
 @extends('layouts.main')
 
 @section('container')
-    <!-- Jumbotron -->
+    <!-- Header -->
     <div
-        class="jumbotron d-flex justify-content-left align-items-center bg-transparent mt-5 animate__animated animate__fadeIn animate_slower">
+        class="jumbotron d-flex justify-content-left align-items-center mt-5 animate__animated animate__fadeIn animate_slower">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-md-start text-center">
+                <div class="col-md-6 text-md-start text-center text-light">
                     <h1 style="font-size: 2 em;">
                         <b>Belajar, Webinar,
                             Lomba, dan Beasiswa
                         </b>
                     </h1>
-                    <h1 style="font-size: 2 em; color: rgb(72, 40, 187);">
+                    <h1 style="font-size: 2 em; color: rgb(186, 167, 255);">
                         <b>Dalam Satu Aplikasi
                         </b>
                     </h1>
-                    <a href="register" class="btn btn-primary fs-5 py-3 px-4 btn-custom mt-2">Yuk Join,
+                    <a href="register" class="btn btn-primary fs-5 py-2 px-3 btn-custom mt-2">Yuk Join,
                         <b>GRATIS!</b></a>
+                </div>
+
+                <div class="col-md-6 text-center d-none d-md-block py-5">
+                    <img src="images/logo/logo-1.png" alt="">
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Jumbotron -->
+    <!-- End og Header -->
 
     <!-- Jumbotron -->
-    <div class="px-4 py-5 my-5 mb-5 text-center">
-        {{-- <img
-    class="d-block mx-auto mb-4"
-    src="../assets/brand/bootstrap-logo.svg"
-    alt=""
-    width="72"
-    height="57"
-  /> --}}
+    <div class="mb-5 py-5 text-center">
         <h3 class="display-10 fw-bold mb-3">What we provide</h3>
         <div class="col-lg-6 mx-auto">
             <p class="mb-4">
@@ -45,7 +42,7 @@
 
                     {{-- Feature --}}
                     <div class="col-lg-3 feature">
-                        
+
                         <a href="/courses">
                             <img class="bd-placeholder-img" width="50" height="50" src="/images/icons/icons-courses.png" />
                         </a>
@@ -103,7 +100,7 @@
 
         <!-- START THE FEATURETTES -->
 
-        <div class="container marketing">
+        {{-- <div class="container marketing">
 
             <hr class="featurette-divider">
 
@@ -188,12 +185,12 @@
                     </svg>
 
                 </div>
-            </div>
+            </div> --}}
 
 
-            <!-- /END THE FEATURETTES -->
+        <!-- /END THE FEATURETTES -->
 
-        </div><!-- /.container -->
+    </div><!-- /.container -->
     </div>
 
 

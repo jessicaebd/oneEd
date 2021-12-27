@@ -17,7 +17,7 @@ use App\Http\Controllers\Auth\RegisterController;
 */
 
 Route::get('/', function () {
-  return view('index', [
+  return view('home.index', [
     'title' => 'Home'
   ]);
 })->name('home');
