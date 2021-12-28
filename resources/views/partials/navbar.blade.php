@@ -49,8 +49,8 @@
 
             @guest
                 <div class="d-flex">
-                    <a href="{{ route('login') }}" class="btn btn-outline-primary me-2 rounded">Login</a>
-                    <a href="{{ route('register') }}" class="btn btn-primary rounded">Register</a>
+                    <a href="{{ route('login') }}" class="btn btn-custom btn-login me-2 rounded">Login</a>
+                    <a href="{{ route('register') }}" class="btn btn-custom btn-register rounded">Register</a>
                 </div>
             @endguest
         </div>

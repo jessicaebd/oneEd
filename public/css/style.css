@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@500&family=Poppins&display=swap");
 
+:root {
+    --blue: #1D0090;
+}
+
 body {
     min-height: 1500px;
     display: flex;
@@ -9,8 +13,10 @@ body {
     /* letter-spacing: 0.5px; */
 }
 
+/* Navbar */
 .active {
-    color: rgb(55, 97, 235) !important;
+    font-weight: bold;
+    color: var(--blue) !important;
 }
 
 .nav-link {
@@ -18,25 +24,48 @@ body {
 }
 
 .nav-link:hover {
-    color: rgb(55, 97, 235) !important;
+    color: rgb(24, 74, 240) !important;
     transform: scale(1.1);
 }
 
-/* Header */
-.jumbotron {
-    height: 85vh;
-    background: url(../images/blue-pattern.jpg) no-repeat left;
-    background-size: cover;
+.btn-login {
+    color: white;
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
 }
 
-.btn-custom {
-    transition: all 0.2s;
-    border-width: 2px;
+.btn-register {
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+/* End of Navbar */
+
+
+/* Header */
+.jumbotron {
+    height: 90vh;
+    background: url(../images/header-1.png) no-repeat left;
+    background-size: relative;
+}
+
+.btn-join {
+    background-color: var(--blue);
+    color: white;
     border-radius: 20px;
 }
 
+/* End of Header */
+
+
+
+
+.btn-custom {
+    transition: all 0.2s;
+}
+
 .btn-custom:hover {
-    color: rgb(55, 97, 235);
+    color: var(--blue);
     background-color: #ffffff;
     transform: scale(1.1);
 }
@@ -47,7 +76,6 @@ body {
     background-size: cover;
 }
 
-/* Enf of Header */
 
 
 

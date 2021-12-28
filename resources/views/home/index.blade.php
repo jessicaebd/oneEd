@@ -6,21 +6,17 @@
         class="jumbotron d-flex justify-content-left align-items-center mt-5 animate__animated animate__fadeIn animate_slower">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 text-md-start text-center text-light">
+                <div class="col-md-7 text-md-start text-center">
                     <h1 style="font-size: 2 em;">
                         <b>Belajar, Webinar, Lomba, dan Beasiswa
                         </b>
                     </h1>
-                    <h1 style="font-size: 2 em; color: rgb(186, 167, 255);">
+                    <h1 style="font-size: 2 em; color: rgb(103, 72, 214);">
                         <b>Dalam Satu Aplikasi
                         </b>
                     </h1>
-                    <a href="register" class="btn btn-primary fs-5 py-2 px-3 btn-custom mt-4">Yuk Join,
+                    <a href="register" class="btn fs-5 py-2 px-4 btn-custom btn-join mt-4">Yuk Join,
                         <b>GRATIS!</b></a>
-                </div>
-
-                <div class="col-md-5 text-center d-none d-md-block py-4">
-                    <img src="images/logo/logo-1.png" alt="" height="200">
                 </div>
             </div>
         </div>
