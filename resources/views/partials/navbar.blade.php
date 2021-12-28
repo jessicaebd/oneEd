@@ -21,7 +21,7 @@
                         Features
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Courses</a></li>
+                        <li><a class="dropdown-item" href="{{ route('courses') }}">Courses</a></li>
                         <li><a class="dropdown-item" href="#">Webinars</a></li>
                         <li><a class="dropdown-item" href="#">Events</a></li>
                         <li><a class="dropdown-item" href="#">Scholarships</a></li>
