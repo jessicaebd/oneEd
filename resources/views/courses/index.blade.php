@@ -27,7 +27,8 @@
                                 <i class="bi bi-hourglass-split"></i> {{ $course['duration'] }} weeks long
                             </small>
 
-                            <a href="#" class="btn btn-primary btn-custom mt-auto">See Course</a>
+                            <a href="/courses/{{ $course['slug'] }}" class="btn btn-primary btn-custom mt-auto">See
+                                Course</a>
                         </div>
                     </div>
                 </div>

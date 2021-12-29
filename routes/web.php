@@ -88,6 +88,11 @@ Route::get('/courses', function () {
   ]);
 })->name('courses');
 
+Route::get('/courses/{slug}', function ($slug) {
+  return view('courses.single', [
+    'title' => 'Single'
+  ]);
+});
 
 Route::get('/login', [LoginController::class, 'index'])->name('login');
 
