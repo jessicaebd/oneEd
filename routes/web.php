@@ -31,7 +31,7 @@ Route::get('/courses', function () {
   ]);
 })->name('courses');
 
-Route::get('courses/{slug}', function ($slug) {
+Route::get('/courses/{slug}', function ($slug) {
   return view('courses.single', [
     'title' => 'Course',
     'course' => Course::find($slug)
