@@ -24,7 +24,6 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/courses', function () {
-
   return view('courses.index', [
     'title' => 'Courses',
     'coursesList' => Course::all()

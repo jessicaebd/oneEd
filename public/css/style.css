@@ -57,8 +57,15 @@ body {
 
 /* End of Header */
 
+.btn-main {
+    background-color: var(--blue);
+    color: white;
+    border-radius: 15px;
+}
 
-
+.text-blue {
+    color: var(--blue);
+}
 
 .btn-custom {
     transition: all 0.2s;

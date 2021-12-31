@@ -11,11 +11,11 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+                <li class="nav-item ms-3">
                     <a class="nav-link {{ $title === 'Home' ? 'active' : '' }}" href="{{ route('home') }}">Home</a>
                 </li>
 
-                <li class="nav-item dropdown mx-5">
+                <li class="nav-item dropdown ms-3">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Features
@@ -32,7 +32,7 @@
                     </ul>
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item ms-3">
                     <a class="nav-link {{ $title === 'Contact' ? 'active' : '' }}" href="#">Contact Us</a>
                 </li>
             </ul>
