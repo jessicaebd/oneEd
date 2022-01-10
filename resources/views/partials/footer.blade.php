@@ -49,25 +49,25 @@
                 <p>&copy; 2021 Company, Inc. All rights reserved.</p>
                 <ul class="list-unstyled d-flex">
                     <li class="ms-2">
-                        <a class="btn-floating btn-tw mx-1 text-blue" href="https://whatsapp.com">
+                        <a class="btn-floating btn-tw mx-1 text-white" href="https://whatsapp.com">
                             <i class="bi bi-whatsapp" style="font-size: 24px;"></i>
                         </a>
                     </li>
 
                     <li class="ms-2">
-                        <a class="btn-floating btn-li mx-1 text-blue" href="https://facebook.com">
+                        <a class="btn-floating btn-li mx-1 text-white" href="https://facebook.com">
                             <i class="bi bi-facebook" style="font-size: 24px;"></i>
                         </a>
                     </li>
 
                     <li class="ms-2">
-                        <a class="btn-floating btn-dribbble mx-1 text-blue" href="https://instagram.com">
+                        <a class="btn-floating btn-dribbble mx-1 text-white" href="https://instagram.com">
                             <i class="bi bi-instagram" style="font-size: 24px;"></i>
                         </a>
                     </li>
 
                     <li class="ms-2">
-                        <a class="btn-floating btn-gplus mx-1 text-blue" href="https://twitter.com">
+                        <a class="btn-floating btn-gplus mx-1 text-white" href="https://twitter.com">
                             <i class="bi bi-twitter" style="font-size: 24px;"></i>
                         </a>
                     </li>
