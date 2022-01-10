@@ -1,117 +1,84 @@
-<footer class="page-footer font-small stylish-color-dark pt-4">
-    <!-- Footer Links -->
-    {{-- <div class="container text-center text-md-left">
-        <!-- Grid row -->
-        <div class="row">
-            <!-- Grid column -->
-            <div class="col-md-3 mx-auto">
-                <!-- Content -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">OneEd</h5>
-                <p>Ini isi alamat aja</p>
+<div class="container-fluid bg-blue text-white mt-5">
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-2">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    </ul>
+                </div>
 
+                <div class="col-2">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-2">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-4 offset-1">
+                    <form>
+                        <h5>Subscribe to our newsletter</h5>
+                        <p>Monthly digest of whats new and exciting from us.</p>
+                        <div class="d-flex w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <!-- Grid column -->
 
-            <hr class="clearfix w-100 d-md-none">
+            <div class="d-flex justify-content-between py-3 my-3 border-top">
+                <p>&copy; 2021 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-2">
+                        <a class="btn-floating btn-tw mx-1 text-blue" href="https://whatsapp.com">
+                            <i class="bi bi-whatsapp" style="font-size: 24px;"></i>
+                        </a>
+                    </li>
 
-            <!-- Grid column -->
-            <div class="col-md-2 mx-auto">
-                <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#!" class="text-dark">Courses</a>
+                    <li class="ms-2">
+                        <a class="btn-floating btn-li mx-1 text-blue" href="https://facebook.com">
+                            <i class="bi bi-facebook" style="font-size: 24px;"></i>
+                        </a>
                     </li>
-                    <li>
-                        <a href="#!" class="text-dark">Webinars</a>
+
+                    <li class="ms-2">
+                        <a class="btn-floating btn-dribbble mx-1 text-blue" href="https://instagram.com">
+                            <i class="bi bi-instagram" style="font-size: 24px;"></i>
+                        </a>
                     </li>
-                    <li>
-                        <a href="#!" class="text-dark">Competitions</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-dark">Scholarships</a>
+
+                    <li class="ms-2">
+                        <a class="btn-floating btn-gplus mx-1 text-blue" href="https://twitter.com">
+                            <i class="bi bi-twitter" style="font-size: 24px;"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
-            <!-- Grid column -->
 
-            <hr class="clearfix w-100 d-md-none">
-
-            <!-- Grid column -->
-            <div class="col-md-2 mx-auto">
-                <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#!" class="text-dark">Courses</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-dark">Webinars</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-dark">Competitions</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-dark">Scholarships</a>
-                    </li>
-                </ul>
+            <!-- Copyright -->
+            <div class="footer-copyright text-center">
+                <h1 style="text-decoration: none; color: white;" class="mb-0"> OneEd</h1>Copyright © 2021
             </div>
-            <!-- Grid column -->
-
-            <hr class="clearfix w-100 d-md-none">
-
-            <!-- Grid column -->
-            <div class="col-md-2 mx-auto">
-                <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Legal</h5>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#!" class="text-dark">Terms</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-dark">Privacy Policy</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Grid column -->
-            <hr class="clearfix w-100 d-md-none">
-        </div>
-        <!-- Grid row -->
+            <!-- Copyright -->
+        </footer>
     </div>
-    <!-- Footer Links -->
-
-    <hr> --}}
-
-
-    <!-- Social buttons -->
-    <ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item">
-            <a class="btn-floating btn-tw mx-1" href="https://whatsapp.com">
-                <i class="bi bi-whatsapp">Whatsapp</i>
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a class="btn-floating btn-gplus mx-1" href="https://twitter.com">
-                <i class="bi bi-twitter">Twitter</i>
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a class="btn-floating btn-li mx-1" href="https://facebook.com">
-                <i class="bi bi-facebook">Facebook</i>
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a class="btn-floating btn-dribbble mx-1" href="https://instagram.com">
-                <i class="bi bi-instagram">Instagram</i>
-            </a>
-        </li>
-    </ul>
-    <!-- Social buttons -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">
-        <h1 style="text-decoration: none; color: black;" class="mb-0"> OneEd</h1>Copyright © 2021
-    </div>
-    <!-- Copyright -->
-
-</footer>
+</div>
