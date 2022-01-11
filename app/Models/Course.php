@@ -63,7 +63,47 @@ class Course
             'mentorName' => 'Tony Stark',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
             'duration' => 40
-        ]
+        ],
+        [
+            'slug' => 'astronomy',
+            'title' => 'Astronomy',
+            'category' => 'magic',
+            'mentorName' => 'Prof. Aurora Sinistra',
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
+            'duration' => 70
+        ],
+        [
+            'slug' => 'history-of-magic',
+            'title' => 'History of Magic',
+            'category' => 'magic',
+            'mentorName' => 'Cuthbert Binns',
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
+            'duration' => 15
+        ],
+        [
+            'slug' => 'introduction-to-potions',
+            'title' => 'Introduction to Potions',
+            'category' => 'magic',
+            'mentorName' => 'Severus Snape',
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
+            'duration' => 20
+        ],
+        [
+            'slug' => 'muggle-studies',
+            'title' => 'Muggle Studies',
+            'category' => 'magic',
+            'mentorName' => 'Charity Burbage',
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
+            'duration' => 14
+        ],
+        [
+            'slug' => 'how-to-fly',
+            'title' => 'How to Fly',
+            'category' => 'magic',
+            'mentorName' => 'Rolanda Hooch',
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
+            'duration' => 15
+        ],
     ];
 
     public static function all()
