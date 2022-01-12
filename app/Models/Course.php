@@ -13,7 +13,7 @@ class Course
             'title' => 'How to Play Guitar',
             'category' => 'music',
             'mentorName' => 'Fiersa Kecili',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
+            'description' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa vitae, laborum voluptas, accusamus quod, neque minus dolore molestiae enim inventore ipsam eum exercitationem temporibus harum?',
             'duration' => 10
         ],
         [

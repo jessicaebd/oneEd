@@ -19,6 +19,14 @@ a {
     text-decoration: none;
 }
 
+.card-category {
+    text-transform: capitalize;
+}
+
+.m-font {
+    font-size: 1rem;
+}
+
 .s-font {
     font-size: 0.8rem;
 }

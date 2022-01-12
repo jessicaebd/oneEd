@@ -2,7 +2,7 @@
 
 @section('container')
     <!-- Featured Courses -->
-    <div class="container-fluid mt-4 pt-5 pb-2 bg-dark">
+    <div class="container-fluid mt-5 pt-5 pb-4 bg-blue">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -91,7 +91,7 @@
 
 
     <!-- Explore Courses -->
-    <div class="container mt-1">
+    {{-- <div class="container mt-1">
         <h1 class="text-center p-5 fs-2"> <b>Explore Courses</b></h1>
         <div class="row">
             @foreach ($coursesList as $course)
@@ -108,7 +108,7 @@
                                     class="card-text text-decoration-none text-muted">{{ $course['mentorName'] }}</a>
                             </small>
 
-                            {{-- <p class="card-text">{{ $course['description'] }}</p> --}}
+                            <p class="card-text">{{ $course['description'] }}</p>
 
                             <small class="card-text text-muted">
                                 <i class="bi bi-hourglass-split"></i> {{ $course['duration'] }} weeks long
@@ -123,6 +123,53 @@
             @endforeach
 
         </div>
-    </div>
+    </div> --}}
     <!-- End of Explore Courses -->
+
+
+    <div class="container mt-1">
+        <h1 class="text-center p-5 fs-2"> <b>Explore Courses</b></h1>
+        <div class="row">
+            @foreach ($coursesList as $course)
+                <div class="card mb-2 p-2">
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <img src="https://source.unsplash.com/1600x900?{{ $course['title'] }}" class="card-img"
+                                alt="...">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body">
+                                <a href="courses/{{ $course['slug'] }}" class="text-decoration-none text-dark">
+                                    <h5 class="card-title m-font"><b>{{ $course['title'] }}</b></h5>
+                                </a>
+                                <p class="card-text s-font mb-0">{{ $course['description'] }}</p>
+
+                                <small class="text-muted mb-1">
+                                    <a href="#"
+                                        class="card-text text-decoration-none text-muted xs-font">{{ $course['mentorName'] }}</a>
+                                </small>
+                                <br>
+                                <p class="card-text mb-1">
+                                    <small class="s-font">
+                                        <i class="bi bi-calendar-event me-1"></i>
+                                        Saturday, 8 p.m.
+                                    </small>
+                                </p>
+                                <small class="card-text text-muted xs-font">
+                                    {{ $course['duration'] }} weeks long
+                                </small>
+                                <small class="card-text text-muted xs-font card-category">
+                                    <i class="bi bi-dot"></i>
+                                    {{ $course['category'] }}
+                                </small>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
 @endsection
