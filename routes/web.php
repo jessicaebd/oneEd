@@ -5,6 +5,7 @@ use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\LogoutController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Models\Course;
+use App\Models\Webinar;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,6 +35,20 @@ Route::get('/courses/{slug}', function ($slug) {
   return view('courses.single', [
     'title' => 'Course',
     'course' => Course::find($slug)
+  ]);
+});
+
+Route::get('/webinars', function () {
+  return view('webinars.index', [
+    'title' => 'Webinars',
+    'webinarList' => Webinar::all()
+  ]);
+})->name('webinars');
+
+Route::get('/webinars/{slug}', function ($slug) {
+  return view('webinars.single', [
+    'title' => 'Webinar',
+    'webinar' => Webinar::find($slug)
   ]);
 });
 
