@@ -23,7 +23,7 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="{{ route('courses') }}">Courses</a></li>
                         <li><a class="dropdown-item" href="{{ route('webinars') }}">Webinars</a></li>
-                        <li><a class="dropdown-item" href="#">Events</a></li>
+                        <li><a class="dropdown-item" href="{{ route('competitions') }}">Competitions</a></li>
                         <li><a class="dropdown-item" href="#">Scholarships</a></li>
                         <li>
                             <hr class="dropdown-divider">

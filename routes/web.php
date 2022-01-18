@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\LogoutController;
 use App\Http\Controllers\Auth\RegisterController;
+use App\Models\Competition;
 use App\Models\Course;
 use App\Models\Webinar;
 
@@ -49,6 +50,20 @@ Route::get('/webinars/{slug}', function ($slug) {
   return view('webinars.single', [
     'title' => 'Webinar',
     'webinar' => Webinar::find($slug)
+  ]);
+});
+
+Route::get('/competitions', function () {
+  return view('competitions.index', [
+    'title' => 'Competitions',
+    'competitionList' => Competition::all()
+  ]);
+})->name('competitions');
+
+Route::get('/competitions/{slug}', function ($slug) {
+  return view('competitions.single', [
+    'title' => 'Competition',
+    'competition' => Competition::find($slug)
   ]);
 });
 
