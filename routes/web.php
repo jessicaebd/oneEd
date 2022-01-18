@@ -6,6 +6,7 @@ use App\Http\Controllers\Auth\LogoutController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Models\Competition;
 use App\Models\Course;
+use App\Models\Scholarship;
 use App\Models\Webinar;
 
 /*
@@ -64,6 +65,20 @@ Route::get('/competitions/{slug}', function ($slug) {
   return view('competitions.single', [
     'title' => 'Competition',
     'competition' => Competition::find($slug)
+  ]);
+});
+
+Route::get('/scholarships', function () {
+  return view('scholarships.index', [
+    'title' => 'Scholarships',
+    'scholarshipList' => Scholarship::all()
+  ]);
+})->name('scholarships');
+
+Route::get('/scholarships/{slug}', function ($slug) {
+  return view('scholarships.single', [
+    'title' => 'Scholarship',
+    'scholarship' => Scholarship::find($slug)
   ]);
 });
 
