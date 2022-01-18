@@ -91,7 +91,7 @@
 
 
     <!-- Explore Courses -->
-    {{-- <div class="container mt-1">
+    <div class="container mt-1">
         <h1 class="text-center p-5 fs-2"> <b>Explore Courses</b></h1>
         <div class="row">
             @foreach ($webinarList as $webinar)
@@ -108,13 +108,13 @@
                                     class="card-text text-decoration-none text-muted">{{ $webinar['speaker'] }}</a>
                             </small>
 
-                            <p class="card-text">{{ $webinar['description'] }}</p>
+                            <p class="card-text">{{ Str::limit($webinar['description'], 50) }}</p>
 
                             <small class="card-text text-muted">
                                 <i class="bi bi-hourglass-split"></i> {{ $webinar['duration'] }} weeks long
                             </small>
 
-                            <a href="webinar/{{ $webinar['slug'] }}"
+                            <a href="webinars/{{ $webinar['slug'] }}"
                                 class="btn btn-primary btn-main btn-custom mt-auto">See
                                 Course</a>
                         </div>
@@ -123,11 +123,11 @@
             @endforeach
 
         </div>
-    </div> --}}
+    </div>
     <!-- End of Explore Courses -->
 
 
-    <div class="container mt-1">
+    {{-- <div class="container mt-1">
         <h1 class="text-center p-5 fs-2"> <b>Explore Courses</b></h1>
         <div class="row">
             @foreach ($webinarList as $webinar)
@@ -171,5 +171,5 @@
                 </div>
             @endforeach
         </div>
-    </div>
+    </div> --}}
 @endsection
