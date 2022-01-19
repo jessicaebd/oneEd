@@ -9,54 +9,58 @@ class Webinar
 {
     private static $webinar_list = [
         [
-            'slug' => 'how-to-play-guitar',
-            'title' => 'How to Play Guitar',
-            'category' => 'music',
-            'speaker' => 'Fiersa Kecili',
-            'description' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa vitae, laborum voluptas, accusamus quod, neque minus dolore molestiae enim inventore ipsam eum exercitationem temporibus harum?',
-            'date' => '17-01-2022',
-            'time' => '10:00',
-            'duration' => 200,
+            'slug' => 'whats-the-culture-like-to-work-in-educational-industry',
+            'title' => 'INDUSTRIAL SHARING: "What\'s the Culture like to Work in Educational Industry"',
+            'speaker' => 'Nadila Setiabudiarto',
+            'registBy' => '10 Jan 2022',
+            'eventDate' => 'Saturday, 15 Jan 2022',
+            'time' => '13:00-15:00 WIB',
+            'poster' => 'webinar-1.jpeg'
         ],
         [
-            'slug' => 'history-of-magic',
-            'title' => 'History of Magic',
-            'category' => 'magic',
-            'speaker' => 'Cuthbert Binns',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022',
-            'time' => '10:00',
-            'duration' => 15
+            'slug' => 'entrepreneurship-in-time-of-crisis',
+            'title' => 'STUDIUM GENERALE: "Entrepreneurship in Time of Crisis"',
+            'speaker' => 'Willson Cuaca',
+            'registBy' => '11 Jan 2022',
+            'eventDate' => 'Sunday, 16 Jan 2022',
+            'time' => '13:00-15:00 WIB',
+            'poster' => 'webinar-2.jpg'
         ],
         [
-            'slug' => 'introduction-to-potions',
-            'title' => 'Introduction to Potions',
-            'category' => 'magic',
-            'speaker' => 'Severus Snape',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022',
-            'time' => '10:00',
-            'duration' => 20
+            'slug' => 'successful-entrepreneurship-in-the-new-normal-era',
+            'title' => 'STUDIUM GENERALE X WEBINAR HEBAT: "Successful Entrepreneurship in the New Normal Era"',
+            'speaker' => 'Kaesang Pangarep',
+            'registBy' => '12 Jan 2022',
+            'eventDate' => 'Monday, 17 Jan 2022',
+            'time' => '13:30-15:00 WIB',
+            'poster' => 'webinar-3.jpg'
         ],
         [
-            'slug' => 'muggle-studies',
-            'title' => 'Muggle Studies',
-            'category' => 'magic',
-            'speaker' => 'Charity Burbage',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022',
-            'time' => '10:00',
-            'duration' => 14
+            'slug' => 'technoscape-2020-bncc',
+            'title' => 'TECHNOSCAPE 2020 – BINUS COMPUTER CLUB',
+            'speaker' => 'TechnoScape x tiket.com',
+            'registBy' => '13 Jan 2022',
+            'eventDate' => 'Tuesday, 18 Jan 2022',
+            'time' => '13:30-15:00 WIB',
+            'poster' => 'webinar-4.png'
         ],
         [
-            'slug' => 'how-to-fly',
-            'title' => 'How to Fly',
-            'category' => 'magic',
-            'speaker' => 'Rolanda Hooch',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022',
-            'time' => '10:00',
-            'duration' => 15
+            'slug' => 'ideathonesia-2020-theory-of-change',
+            'title' => 'Webinar Ideathonesia 2020 : Theory of Change',
+            'speaker' => 'Dr. Ari Margiono (CIDER Binus)',
+            'registBy' => '14 Jan 2022',
+            'eventDate' => 'Tuesday, 18 Jan 2022',
+            'time' => '10:25-11:30 WIB',
+            'poster' => 'webinar-5.jpeg'
+        ],
+        [
+            'slug' => 'how-millennials-plan-their-financial-for-future-serenity',
+            'title' => 'WEBINAR : "How Millennials Plan Their Financial for Future Serenity"',
+            'speaker' => 'Dr. Ari Margiono (CIDER Binus)',
+            'registBy' => '14 Jan 2022',
+            'eventDate' => 'Tuesday, 18 Jan 2022',
+            'time' => '10:25-11:30 WIB',
+            'poster' => 'webinar-6.jpg'
         ],
     ];
 

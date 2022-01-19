@@ -3,6 +3,7 @@
 
 :root {
     --blue: #1D0090;
+    --grey: #f7f7f7;
 }
 
 body {
@@ -41,6 +42,10 @@ a {
 
 .bg-blue {
     background-color: var(--blue);
+}
+
+.bg-grey {
+    background-color: var(--grey);
 }
 
 .btn-custom {
