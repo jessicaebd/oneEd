@@ -157,7 +157,7 @@
 
         <!-- Explore Courses -->
         <div class="container mt-1">
-            <h1 class="text-center p-5 fs-2"> <b>Explore Webinars</b></h1>
+            <h1 class="text-center p-5 fs-2"> <b>Explore Competitions</b></h1>
             <div class="row">
                 @foreach ($competitionList as $competition)
                     <div class="col-md-4 col-sm-6 mb-5">
