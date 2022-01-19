@@ -162,7 +162,6 @@
         <!-- End of featured Courses -->
 
         <!-- Explore Courses -->
-
         <div class="container mt-1">
             <h1 class="text-center p-5 fs-2"> <b>Explore Webinars</b></h1>
             <div class="row">
@@ -170,7 +169,7 @@
                     <div class="col-md-4 col-sm-6 mb-5">
                         <div class="card shadow-sm" style="min-height: 450px;">
                             <div class="d-flex justify-content-center">
-                                <img src="/images/webinar//{{ $webinar['poster'] }}" class="img-fluid rounded my-2"
+                                <img src="/images/webinar/{{ $webinar['poster'] }}" class="img-fluid rounded my-2"
                                     alt="..." style="max-height: 250px">
                             </div>
 
@@ -195,54 +194,6 @@
 
             </div>
         </div>
-
         <!-- End of Explore Courses -->
-
-
-        {{-- <div class="container mt-1">
-        <h1 class="text-center p-5 fs-2"> <b>Explore Courses</b></h1>
-        <div class="row">
-            @foreach ($webinarList as $webinar)
-                <div class="card mb-2 p-2">
-                    <div class="row no-gutters">
-                        <div class="col-md-3">
-                            <img src="https://source.unsplash.com/1600x900?{{ $webinar['title'] }}"
-                                class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-9">
-                            <div class="card-body">
-                                <a href="webinar/{{ $webinar['slug'] }}" class="text-decoration-none text-dark">
-                                    <h5 class="card-title m-font"><b>{{ $webinar['title'] }}</b></h5>
-                                </a>
-                                <p class="card-text s-font mb-0">{{ $webinar['description'] }}</p>
-
-                                <small class="text-muted mb-1">
-                                    <a href="#"
-                                        class="card-text text-decoration-none text-muted xs-font">{{ $webinar['speaker'] }}</a>
-                                </small>
-                                <br>
-                                <p class="card-text mb-1">
-                                    <small class="s-font">
-                                        <i class="bi bi-calendar-event me-1"></i>
-                                        Saturday, 8 p.m.
-                                    </small>
-                                </p>
-                                <small class="card-text text-muted xs-font">
-                                    {{ $webinar['duration'] }} weeks long
-                                </small>
-                                <small class="card-text text-muted xs-font card-category">
-                                    <i class="bi bi-dot"></i>
-                                    {{ $webinar['category'] }}
-                                </small>
-
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            @endforeach
-        </div>
-    </div> --}}
     </div>
 @endsection

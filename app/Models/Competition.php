@@ -9,100 +9,36 @@ class Competition
 {
     private static $competition_list = [
         [
-            'slug' => 'how-to-play-guitar',
-            'title' => 'How to Play Guitar',
-            'category' => 'music',
-            'organizer' => 'Fiersa Kecili',
-            'description' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa vitae, laborum voluptas, accusamus quod, neque minus dolore molestiae enim inventore ipsam eum exercitationem temporibus harum?',
-            'date' => '17-01-2022'
+            'slug' => 'indigo-hackathon-festival',
+            'title' => 'Indigo Hackathon Festival',
+            'organizer' => 'Indigo Creative Nation',
+            'registrationDate' => '10 Jan 2022',
+            'eventDate' => 'Saturday, 15 Jan 2022',
+            'poster' => 'competition-1.png'
         ],
         [
-            'slug' => 'math-for-fun',
-            'title' => 'Math for Fun',
-            'category' => 'math',
-            'organizer' => 'Jojo Winata',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
+            'slug' => 'hack-gov-hackathon',
+            'title' => 'Hack-Gov: Hackathon',
+            'organizer' => 'Kementrian PPN/Bappenas',
+            'registrationDate' => '11 Jan 2022',
+            'eventDate' => 'Sunday, 16 Jan 2022',
+            'poster' => 'competition-2.jpg'
         ],
         [
-            'slug' => 'introduction-to-c++',
-            'title' => 'Introduction to C++',
-            'category' => 'programming',
-            'organizer' => 'Maaruf Amin',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
+            'slug' => 'necfest-2021',
+            'title' => 'NECFEST – National Essay Competition Festival 2021',
+            'organizer' => 'BEM KM SV UGM',
+            'registrationDate' => '12 Jan 2022',
+            'eventDate' => 'Monday, 17 Jan 2022',
+            'poster' => 'competition-3.jpeg'
         ],
         [
-            'slug' => 'mindfulness',
-            'title' => 'Mindfulness',
-            'category' => 'mindfulness',
-            'organizer' => 'Kevin Jow',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
-        ],
-        [
-            'slug' => 'building-a-future-with-robots',
-            'title' => 'Building a Future with Robots',
-            'category' => 'technology',
-            'organizer' => 'Morris King',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
-        ],
-        [
-            'slug' => 'english-in-focus',
-            'title' => 'English in Focus',
-            'category' => 'language',
-            'organizer' => 'Simu Liu',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
-        ],
-        [
-            'slug' => 'introduction-to-laravel8',
-            'title' => 'Introduction to Laravel 8',
-            'category' => 'programming',
-            'organizer' => 'Tony Stark',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
-        ],
-        [
-            'slug' => 'astronomy',
-            'title' => 'Astronomy',
-            'category' => 'magic',
-            'organizer' => 'Prof. Aurora Sinistra',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
-        ],
-        [
-            'slug' => 'history-of-magic',
-            'title' => 'History of Magic',
-            'category' => 'magic',
-            'organizer' => 'Cuthbert Binns',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
-        ],
-        [
-            'slug' => 'introduction-to-potions',
-            'title' => 'Introduction to Potions',
-            'category' => 'magic',
-            'organizer' => 'Severus Snape',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
-        ],
-        [
-            'slug' => 'muggle-studies',
-            'title' => 'Muggle Studies',
-            'category' => 'magic',
-            'organizer' => 'Charity Burbage',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
-        ],
-        [
-            'slug' => 'how-to-fly',
-            'title' => 'How to Fly',
-            'category' => 'magic',
-            'organizer' => 'Rolanda Hooch',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
+            'slug' => 'undip-biology-competition-2021',
+            'title' => 'UNDIP Biology Competition : Active, Creative, Solutive in The Global Pandemic',
+            'organizer' => 'Himpunan Mahasiswa Biologi UNDIP',
+            'registrationDate' => '13 Jan 2022',
+            'eventDate' => 'Tuesday, 18 Jan 2022',
+            'poster' => 'competition-4.jpeg'
         ],
     ];
 
