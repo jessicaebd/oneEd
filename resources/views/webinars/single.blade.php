@@ -15,8 +15,7 @@
                     <p class="lead s-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet reprehenderit
                         aut quia cupiditate excepturi asperiores?</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                        <a href="#" class="btn btn-main btn-custom mt-auto" style="padding: 10px 20px">Register</a>
                     </div>
                 </div>
             </div>

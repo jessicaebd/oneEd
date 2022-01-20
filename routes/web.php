@@ -26,6 +26,12 @@ Route::get('/', function () {
   ]);
 })->name('home');
 
+Route::get('/dashboard', function () {
+  return view('dashboard.index', [
+    'title' => 'Dashboard'
+  ]);
+})->name('dashboard');
+
 Route::get('/courses', function () {
   return view('courses.index', [
     'title' => 'Courses',
