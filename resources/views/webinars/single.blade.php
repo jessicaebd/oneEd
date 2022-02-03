@@ -32,5 +32,51 @@
                     </div>
                 </div>
             </div>
+
+
         </div>
-</div @endsection
+
+
+    </div>
+
+    <div class="container bg-light">
+        <table class="table table-sm table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Week</th>
+                    <th scope="col">Course Content</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, ipsum.</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, sit.</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, sit.</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, sit.</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, sit.</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, sit.</td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, sit.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+@endsection
