@@ -56,6 +56,7 @@ Route::get('/webinars', function () {
 Route::get('/webinars/{slug}', function ($slug) {
   return view('webinars.single', [
     'title' => 'Webinar',
+    'webinarList' => Webinar::all(),
     'webinar' => Webinar::find($slug)
   ]);
 });
