@@ -7,114 +7,78 @@ use Illuminate\Database\Eloquent\Model;
 
 class Scholarship
 {
-    private static $competition_list = [
+    private static $scholarship_list = [
         [
-            'slug' => 'how-to-play-guitar',
-            'title' => 'How to Play Guitar',
-            'category' => 'music',
-            'organizer' => 'Fiersa Kecili',
-            'description' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa vitae, laborum voluptas, accusamus quod, neque minus dolore molestiae enim inventore ipsam eum exercitationem temporibus harum?',
-            'date' => '17-01-2022'
+            'slug' => 'whats-the-culture-like-to-work-in-educational-industry',
+            'title' => 'INDUSTRIAL SHARING: "What\'s the Culture like to Work in Educational Industry"',
+            'speaker' => 'Nadila Setiabudiarto',
+            'category' => 'Self Development',
+            'registBy' => '10 Jan 2022',
+            'eventDate' => 'Saturday, 15 Jan 2022',
+            'time' => '13:00-15:00 WIB',
+            'poster' => 'webinar-1.jpeg'
         ],
         [
-            'slug' => 'math-for-fun',
-            'title' => 'Math for Fun',
-            'category' => 'math',
-            'organizer' => 'Jojo Winata',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
+            'slug' => 'entrepreneurship-in-time-of-crisis',
+            'title' => 'STUDIUM GENERALE: "Entrepreneurship in Time of Crisis"',
+            'speaker' => 'Willson Cuaca',
+            'category' => 'Self Development',
+            'registBy' => '11 Jan 2022',
+            'eventDate' => 'Sunday, 16 Jan 2022',
+            'time' => '13:00-15:00 WIB',
+            'poster' => 'webinar-2.jpg'
         ],
         [
-            'slug' => 'introduction-to-c++',
-            'title' => 'Introduction to C++',
-            'category' => 'programming',
-            'organizer' => 'Maaruf Amin',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
+            'slug' => 'successful-entrepreneurship-in-the-new-normal-era',
+            'title' => 'STUDIUM GENERALE X WEBINAR HEBAT: "Successful Entrepreneurship in the New Normal Era"',
+            'speaker' => 'Kaesang Pangarep',
+            'category' => 'Self Development',
+            'registBy' => '12 Jan 2022',
+            'eventDate' => 'Monday, 17 Jan 2022',
+            'time' => '13:30-15:00 WIB',
+            'poster' => 'webinar-3.jpg'
         ],
         [
-            'slug' => 'mindfulness',
-            'title' => 'Mindfulness',
-            'category' => 'mindfulness',
-            'organizer' => 'Kevin Jow',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
+            'slug' => 'technoscape-2020-bncc',
+            'title' => 'TECHNOSCAPE 2020 – BINUS COMPUTER CLUB',
+            'speaker' => 'TechnoScape x tiket.com',
+            'category' => 'Self Development',
+            'registBy' => '13 Jan 2022',
+            'eventDate' => 'Tuesday, 18 Jan 2022',
+            'time' => '13:30-15:00 WIB',
+            'poster' => 'webinar-4.png'
         ],
         [
-            'slug' => 'building-a-future-with-robots',
-            'title' => 'Building a Future with Robots',
-            'category' => 'technology',
-            'organizer' => 'Morris King',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
+            'slug' => 'ideathonesia-2020-theory-of-change',
+            'title' => 'Webinar Ideathonesia 2020 : Theory of Change',
+            'speaker' => 'Dr. Ari Margiono (CIDER Binus)',
+            'category' => 'Self Development',
+            'registBy' => '14 Jan 2022',
+            'eventDate' => 'Tuesday, 18 Jan 2022',
+            'time' => '10:25-11:30 WIB',
+            'poster' => 'webinar-5.jpeg'
         ],
         [
-            'slug' => 'english-in-focus',
-            'title' => 'English in Focus',
-            'category' => 'language',
-            'organizer' => 'Simu Liu',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
-        ],
-        [
-            'slug' => 'introduction-to-laravel8',
-            'title' => 'Introduction to Laravel 8',
-            'category' => 'programming',
-            'organizer' => 'Tony Stark',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
-        ],
-        [
-            'slug' => 'astronomy',
-            'title' => 'Astronomy',
-            'category' => 'magic',
-            'organizer' => 'Prof. Aurora Sinistra',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
-        ],
-        [
-            'slug' => 'history-of-magic',
-            'title' => 'History of Magic',
-            'category' => 'magic',
-            'organizer' => 'Cuthbert Binns',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
-        ],
-        [
-            'slug' => 'introduction-to-potions',
-            'title' => 'Introduction to Potions',
-            'category' => 'magic',
-            'organizer' => 'Severus Snape',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
-        ],
-        [
-            'slug' => 'muggle-studies',
-            'title' => 'Muggle Studies',
-            'category' => 'magic',
-            'organizer' => 'Charity Burbage',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
-        ],
-        [
-            'slug' => 'how-to-fly',
-            'title' => 'How to Fly',
-            'category' => 'magic',
-            'organizer' => 'Rolanda Hooch',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
-            'date' => '17-01-2022'
+            'slug' => 'how-millennials-plan-their-financial-for-future-serenity',
+            'title' => 'WEBINAR : "How Millennials Plan Their Financial for Future Serenity"',
+            'speaker' => 'Dr. Ari Margiono (CIDER Binus)',
+            'category' => 'Self Development',
+            'registBy' => '14 Jan 2022',
+            'eventDate' => 'Tuesday, 18 Jan 2022',
+            'time' => '10:25-11:30 WIB',
+            'poster' => 'webinar-6.jpg'
         ],
     ];
 
     public static function all()
     {
-        return collect(self::$competition_list);
+        return collect(self::$scholarship_list);
     }
 
     public static function find($slug)
     {
-        $competition = static::all();
+        $scholarship = static::all();
 
-        return $competition->firstWhere('slug', $slug);
+        return $scholarship->firstWhere('slug', $slug);
     }
 }

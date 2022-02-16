@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-    <!-- Featured Courses -->
+    <!-- Featured Webinar -->
     <div class="container-fluid mt-5 pt-5 pb-4 bg-grey">
         <h1 class="ms-4 mb-3 fs-3 text-dark"><b>Latest Webinar</b></h1>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -10,11 +10,11 @@
                     <div class="row justify-content-center">
                         @foreach ($webinarList->take(1) as $webinar)
                             <div class="card mb-3 bg-light justify-content-center"
-                                style="min-height: 200px; max-width: 1150px; border-radius: 1rem;">
+                                style="min-height: 230px; max-width: 1150px; border-radius: 1rem;">
                                 <div class="row g-0 d-flex">
                                     <div class="col-md-3 d-flex justify-content-center">
-                                        <img src="/images/webinar//{{ $webinar['poster'] }}" class="img-fluid rounded my-2"
-                                            alt="..." style="max-height: 150px">
+                                        <img src="/images/webinar/{{ $webinar['poster'] }}" class="img-fluid rounded my-2"
+                                            alt="..." style="max-height: 180px">
                                     </div>
 
                                     <div class="col-md-9">
@@ -55,11 +55,11 @@
                     <div class="row justify-content-center">
                         @foreach ($webinarList->slice(1)->take(1) as $webinar)
                             <div class="card mb-3 bg-light justify-content-center"
-                                style="min-height: 200px; max-width: 1150px; border-radius: 1rem;">
+                                style="min-height: 230px; max-width: 1150px; border-radius: 1rem;">
                                 <div class="row g-0 d-flex">
                                     <div class="col-md-3 d-flex justify-content-center">
-                                        <img src="/images/webinar//{{ $webinar['poster'] }}"
-                                            class="img-fluid rounded my-2" alt="..." style="max-height: 150px">
+                                        <img src="/images/webinar/{{ $webinar['poster'] }}" class="img-fluid rounded my-2"
+                                            alt="..." style="max-height: 180px">
                                     </div>
 
                                     <div class="col-md-9">
@@ -100,11 +100,11 @@
                     <div class="row justify-content-center">
                         @foreach ($webinarList->slice(2)->take(1) as $webinar)
                             <div class="card mb-3 bg-light justify-content-center"
-                                style="min-height: 200px; max-width: 1150px; border-radius: 1rem;">
+                                style="min-height: 230px; max-width: 1150px; border-radius: 1rem;">
                                 <div class="row g-0 d-flex">
                                     <div class="col-md-3 d-flex justify-content-center">
-                                        <img src="/images/webinar//{{ $webinar['poster'] }}"
-                                            class="img-fluid rounded my-2" alt="..." style="max-height: 150px">
+                                        <img src="/images/webinar/{{ $webinar['poster'] }}"
+                                            class="img-fluid rounded my-2" alt="..." style="max-height: 180px">
                                     </div>
 
                                     <div class="col-md-9">
@@ -153,9 +153,10 @@
             </button>
         </div>
     </div>
-    <!-- End of featured Courses -->
+    <!-- End of featured Webinar -->
 
-    <!-- Explore Courses -->
+
+    <!-- Explore Webinar -->
     <div class="container mt-1 p-5">
         <h1 class="text-center p-5 fs-2"> <b>Explore Webinars</b></h1>
         <div class="row py-4">
@@ -188,5 +189,5 @@
 
         </div>
     </div>
-    <!-- End of Explore Courses -->
+    <!-- End of Explore Webinar -->
 @endsection
