@@ -2,26 +2,31 @@
 
 @section('container')
     <!-- Featured Courses -->
-    <div class="container-fluid mt-5 pt-5 pb-4 bg-blue">
+    <div class="container-fluid mt-5 pt-5 pb-4" style="background-color: #eef0f0;">
+        <h1 class="mb-3 fs-3 text-dark"><b>Popular Courses</b></h1>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
-                        @foreach ($coursesList->take(6) as $course)
-                            <div class="col-lg-2 col-md-4 col-sm-6 mb-3 ">
-                                <div class="card feature" style="min-height: 50px;">
+                        @foreach ($coursesList->take(1) as $course)
+                            <div class="col-lg-12 col-md-4 col-sm-6 mb-3 ">
+                                <div class="card feature" style="max-height: 350px;">
                                     <img src="https://source.unsplash.com/1600x900?{{ $course['title'] }}"
                                         class="card-img-top" alt="...">
 
                                     <div class="card-img-overlay d-flex flex-column">
-                                        <a href="courses/{{ $course['slug'] }}" class="mt-auto text-blue">
-                                            <h5 class="card-title s-font text-white">
-                                                <b>{{ $course['title'] }}</b>
-                                            </h5>
-                                        </a>
-                                        <small
-                                            class="text-white xs-font fw-light text-muted">{{ $course['mentorName'] }}</small>
-
+                                        <div class="m-auto text-center">
+                                            <a href="courses/{{ $course['slug'] }}" class="text-blue">
+                                                <h5 class="card-title l-font text-white">
+                                                    <b>{{ $course['title'] }}</b>
+                                                </h5>
+                                            </a>
+                                            <small
+                                                class="text-white m-font fw-light text-muted">{{ $course['mentorName'] }}</small>
+                                            <br>
+                                            <a href="courses/{{ $course['slug'] }}"
+                                                class="btn btn-primary btn-main btn-custom mt-auto">Register</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +136,7 @@
         <h1 class="text-center p-5 fs-2"> <b>Explore Courses</b></h1>
         <div class="row">
             @foreach ($coursesList as $course)
-                <div class="card mb-2 p-2">
+                <div class="card mb-2 p-2 shadow-sm">
                     <div class="row no-gutters">
                         <div class="col-md-3">
                             <img src="https://source.unsplash.com/1600x900?{{ $course['title'] }}" class="card-img"
