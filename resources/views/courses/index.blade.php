@@ -194,7 +194,7 @@
     <!-- End of Explore Courses -->
 
 
-    <div class="container mt-1">
+    <div class="container mt-1 p-5">
         <h1 class="text-center p-5 fs-2"> <b>Explore Courses</b></h1>
         <div class="row">
             @foreach ($coursesList as $course)

@@ -1,7 +1,7 @@
-<div class="container-fluid bg-blue text-white mt-5">
+<div class="container-fluid bg-blue text-white">
     <div class="container">
         <footer class="py-5">
-            <div class="row">
+            <div class="row py-2">
                 <div class="col-2">
                     <h5>Section</h5>
                     <ul class="nav flex-column">
@@ -75,10 +75,11 @@
             </div>
 
             <!-- Copyright -->
-            <div class="footer-copyright text-center">
+            <div class="footer-copyright text-center py-2">
                 <h1 style="text-decoration: none; color: white;" class="mb-0"> OneEd</h1>Copyright © 2021
             </div>
             <!-- Copyright -->
+
         </footer>
     </div>
 </div>

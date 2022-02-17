@@ -70,6 +70,13 @@ Route::get('/webinars/{slug}', function ($slug) {
   ]);
 });
 
+Route::get('/webinars/{slug}/register', function ($slug) {
+  return view('webinars.registerWebinar', [
+    'title' => 'RegisterWebinar',
+    'webinar' => Webinar::find($slug)
+  ]);
+});
+
 Route::get('/competitions', function () {
   return view('competitions.index', [
     'title' => 'Competitions',
@@ -84,6 +91,13 @@ Route::get('/competitions/{slug}', function ($slug) {
   ]);
 });
 
+Route::get('/competitions/{slug}/register', function ($slug) {
+  return view('competitions.registerCompetition', [
+    'title' => 'RegisterCompetition',
+    'competition' => Competition::find($slug)
+  ]);
+});
+
 Route::get('/scholarships', function () {
   return view('scholarships.index', [
     'title' => 'Scholarships',
@@ -94,6 +108,13 @@ Route::get('/scholarships', function () {
 Route::get('/scholarships/{slug}', function ($slug) {
   return view('scholarships.single', [
     'title' => 'Scholarship',
+    'scholarship' => Scholarship::find($slug)
+  ]);
+});
+
+Route::get('/scholarships/{slug}/register', function ($slug) {
+  return view('scholarships.registerScholarship', [
+    'title' => 'RegisterScholarship',
     'scholarship' => Scholarship::find($slug)
   ]);
 });

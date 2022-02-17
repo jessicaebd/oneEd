@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-    <div class="container d-flex justify-content-center pt-5 mt-5">
+    <div class="container d-flex justify-content-center py-5 mt-5">
         <div class="card">
             <div class="top-container "> <img src="/images/peter.jpg" class="img profile-image rounded-pill" width="150"
                     height="150">

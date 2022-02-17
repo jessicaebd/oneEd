@@ -2,7 +2,7 @@
 
 @section('container')
     <div class="bg-light text-dark">
-        <div class="container col-xxl-8 px-4 pt-5">
+        <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row g-5 py-5">
 
                 <div class="col-10 col-sm-8 col-lg-6">
@@ -54,7 +54,8 @@
                     </div>
 
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-5">
-                        <a href="#" class="btn btn-main btn-custom mt-auto" style="padding: 10px 30px">Register</a>
+                        <a href="{{ $competition['slug'] }}/register" class="btn btn-main btn-custom mt-auto"
+                            style="padding: 10px 30px">Register</a>
                     </div>
                 </div>
 

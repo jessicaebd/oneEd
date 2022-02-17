@@ -2,7 +2,7 @@
 
 @section('container')
     <div class="bg-light text-dark">
-        <div class="container col-xxl-8 px-4 pt-5">
+        <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row g-5 py-5">
 
                 <div class="col-10 col-sm-8 col-lg-6">
@@ -65,18 +65,20 @@
                             style="padding: 10px 35px">Register</a>
                     </div>
                 </div>
-ever
+
             </div>
 
             <hr>
 
             <div class="about">
                 <h1 class="text-blue l-font fw-bold">About</h1>
-                <p class="s-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus incidunt aliquid
+                <p class="s-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus incidunt
+                    aliquid
                     possimus repellat. Hic
                     mollitia exercitationem iusto, sit perferendis placeat tempore non. Quaerat, blanditiis quasi
                     repudiandae, sunt enim numquam optio consequatur ab quibusdam magni est eum ex odio illum sit, nihil
-                    molestias. Totam, aliquam. Quos ab ullam atque omnis eveniet pariatur saepe molestiae expedita ipsa quas
+                    molestias. Totam, aliquam. Quos ab ullam atque omnis eveniet pariatur saepe molestiae expedita ipsa
+                    quas
                     consequatur voluptatibus illo a quidem repudiandae, in reiciendis corrupti dignissimos ea adipisci
                     itaque totam veniam? Deserunt unde quas architecto molestias facilis! Dolorum totam aliquid nobis
                     repellat eligendi, porro quae impedit commodi laborum nostrum accusamus nam at quasi unde nihil quos
@@ -86,7 +88,8 @@ ever
                     possimus repellat. Hic
                     mollitia exercitationem iusto, sit perferendis placeat tempore non. Quaerat, blanditiis quasi
                     repudiandae, sunt enim numquam optio consequatur ab quibusdam magni est eum ex odio illum sit, nihil
-                    molestias. Totam, aliquam. Quos ab ullam atque omnis eveniet pariatur saepe molestiae expedita ipsa quas
+                    molestias. Totam, aliquam. Quos ab ullam atque omnis eveniet pariatur saepe molestiae expedita ipsa
+                    quas
                     consequatur voluptatibus illo a quidem repudiandae, in reiciendis corrupti dignissimos ea adipisci
                     itaque totam veniam? Deserunt unde quas architecto molestias facilis! Dolorum totam aliquid nobis
                     repellat eligendi, porro quae impedit commodi laborum nostrum accusamus nam at quasi unde nihil quos
@@ -96,7 +99,8 @@ ever
                     possimus repellat. Hic
                     mollitia exercitationem iusto, sit perferendis placeat tempore non. Quaerat, blanditiis quasi
                     repudiandae, sunt enim numquam optio consequatur ab quibusdam magni est eum ex odio illum sit, nihil
-                    molestias. Totam, aliquam. Quos ab ullam atque omnis eveniet pariatur saepe molestiae expedita ipsa quas
+                    molestias. Totam, aliquam. Quos ab ullam atque omnis eveniet pariatur saepe molestiae expedita ipsa
+                    quas
                     consequatur voluptatibus illo a quidem repudiandae, in reiciendis corrupti dignissimos ea adipisci
                     itaque totam veniam? Deserunt unde quas architecto molestias facilis! Dolorum totam aliquid nobis
                     repellat eligendi, porro quae impedit commodi laborum nostrum accusamus nam at quasi unde nihil quos
