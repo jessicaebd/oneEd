@@ -12,8 +12,8 @@
 
 
                     <div class="justify-content-center">
-                        <img src="https://source.unsplash.com/1600x900?{{ $webinar['title'] }}"
-                            class="d-block mx-lg-auto img-fluid" alt="..." style="max-height: 400px" loading="lazy">
+                        <img src="/images/webinar/{{ $webinar['poster'] }}" class="d-block mx-lg-auto img-fluid" alt="..."
+                            style="max-height: 400px" loading="lazy">
                     </div>
 
                     <br>

@@ -41,7 +41,7 @@
                     <hr>
 
                     <div class="mt-3 xs-font fw-bold">
-                        <h1 class="m-font fw-bold">What you will learn:</h1>
+                        <h1 class="m-font fw-bold">What you will get:</h1>
 
                         <div class="d-flex">
                             <img src="/images/icons/calendar.png" alt="" class="me-2" style="height: 15px;">
@@ -104,7 +104,7 @@
                 <ul>
                     <li>Free certificate</li>
                     <li>Grand prize</li>
-                    <li>Presentation materials</li>
+                    <li>Experience</li>
                 </ul>
             </div>
         </div>

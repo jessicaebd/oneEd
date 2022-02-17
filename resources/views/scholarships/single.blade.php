@@ -40,15 +40,15 @@
                     <hr>
 
                     <div class="mt-3 xs-font fw-bold">
-                        <h1 class="m-font fw-bold">What you will learn:</h1>
+                        <h1 class="m-font fw-bold">What you will get:</h1>
 
                         <div class="d-flex">
                             <img src="/images/icons/calendar.png" alt="" class="me-2" style="height: 15px;">
-                            <p class="m-0">Free Certificate</p>
+                            <p class="m-0">Scholarship Program</p>
                         </div>
                         <div class="d-flex">
                             <img src="/images/icons/calendar.png" alt="" class="me-2" style="height: 15px;">
-                            <p class="m-0">Prize</p>
+                            <p class="m-0">Pocket Money</p>
                         </div>
                     </div>
 
@@ -101,9 +101,9 @@
             <div class="benefit">
                 <h1 class="text-blue l-font fw-bold">Benefit</h1>
                 <ul>
-                    <li>Free certificate</li>
-                    <li>Grand prize</li>
-                    <li>Presentation materials</li>
+                    <li>Scholarship grantee certificate</li>
+                    <li>Study scholarship</li>
+                    <li>Relationship with other grantee</li>
                 </ul>
             </div>
         </div>
