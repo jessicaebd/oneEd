@@ -11,7 +11,7 @@ class Course
         [
             'slug' => 'how-to-play-guitar',
             'title' => 'How to Play Guitar',
-            'category' => 'music',
+            'category' => 'Music',
             'mentorName' => 'Fiersa Kecili',
             'description' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa vitae, laborum voluptas, accusamus quod, neque minus dolore molestiae enim inventore ipsam eum exercitationem temporibus harum?',
             'duration' => 10
@@ -19,7 +19,7 @@ class Course
         [
             'slug' => 'math-for-fun',
             'title' => 'Math for Fun',
-            'category' => 'math',
+            'category' => 'Math',
             'mentorName' => 'Jojo Winata',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
             'duration' => 15
@@ -27,7 +27,7 @@ class Course
         [
             'slug' => 'introduction-to-c++',
             'title' => 'Introduction to C++',
-            'category' => 'programming',
+            'category' => 'Programming',
             'mentorName' => 'Maaruf Amin',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
             'duration' => 30
@@ -35,7 +35,7 @@ class Course
         [
             'slug' => 'mindfulness',
             'title' => 'Mindfulness',
-            'category' => 'mindfulness',
+            'category' => 'Mindfulness',
             'mentorName' => 'Kevin Jow',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
             'duration' => 12
@@ -43,7 +43,7 @@ class Course
         [
             'slug' => 'building-a-future-with-robots',
             'title' => 'Building a Future with Robots',
-            'category' => 'technology',
+            'category' => 'Technology',
             'mentorName' => 'Morris King',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
             'duration' => 15
@@ -51,7 +51,7 @@ class Course
         [
             'slug' => 'english-in-focus',
             'title' => 'English in Focus',
-            'category' => 'language',
+            'category' => 'Language',
             'mentorName' => 'Simu Liu',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
             'duration' => 15
@@ -59,7 +59,7 @@ class Course
         [
             'slug' => 'introduction-to-laravel8',
             'title' => 'Introduction to Laravel 8',
-            'category' => 'programming',
+            'category' => 'Programming',
             'mentorName' => 'Tony Stark',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
             'duration' => 40
@@ -67,7 +67,7 @@ class Course
         [
             'slug' => 'astronomy',
             'title' => 'Astronomy',
-            'category' => 'magic',
+            'category' => 'Magic',
             'mentorName' => 'Prof. Aurora Sinistra',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
             'duration' => 70
@@ -75,7 +75,7 @@ class Course
         [
             'slug' => 'history-of-magic',
             'title' => 'History of Magic',
-            'category' => 'magic',
+            'category' => 'Magic',
             'mentorName' => 'Cuthbert Binns',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
             'duration' => 15
@@ -83,7 +83,7 @@ class Course
         [
             'slug' => 'introduction-to-potions',
             'title' => 'Introduction to Potions',
-            'category' => 'magic',
+            'category' => 'Magic',
             'mentorName' => 'Severus Snape',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
             'duration' => 20
@@ -91,7 +91,7 @@ class Course
         [
             'slug' => 'muggle-studies',
             'title' => 'Muggle Studies',
-            'category' => 'magic',
+            'category' => 'Magic',
             'mentorName' => 'Charity Burbage',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
             'duration' => 14
@@ -99,7 +99,7 @@ class Course
         [
             'slug' => 'how-to-fly',
             'title' => 'How to Fly',
-            'category' => 'magic',
+            'category' => 'Magic',
             'mentorName' => 'Rolanda Hooch',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
             'duration' => 15
