@@ -20,7 +20,7 @@
 
                                     <div class="col-md-7 px-5 py-2">
                                         <div class="card-body">
-                                            <a href="course/{{ $course['slug'] }}" class="mt-auto">
+                                            <a href="courses/{{ $course['slug'] }}" class="mt-auto">
                                                 <h5 class="card-title fs-4 text-blue">
                                                     <b>{{ $course['title'] }}</b>
                                                 </h5>

@@ -48,6 +48,13 @@ Route::get('/courses/{slug}', function ($slug) {
   ]);
 });
 
+Route::get('/courses/{slug}/register', function ($slug) {
+  return view('courses.registerCourse', [
+    'title' => 'RegisterCourse',
+    'course' => Course::find($slug)
+  ]);
+});
+
 Route::get('/webinars', function () {
   return view('webinars.index', [
     'title' => 'Webinars',

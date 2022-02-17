@@ -61,11 +61,11 @@
                     </div>
 
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-3">
-                        <a href="#" class="btn btn-main btn-custom mt-auto fw-bolder"
+                        <a href="{{ $course['slug'] }}/register" class="btn btn-main btn-custom mt-auto fw-bolder"
                             style="padding: 10px 35px">Register</a>
                     </div>
                 </div>
-
+ever
             </div>
 
             <hr>
