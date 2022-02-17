@@ -40,11 +40,10 @@
 
             @auth
                 <div class="d-flex">
-                    <a href="/" class="btn btn-outline-primary me-3 rounded">{{ auth()->user()->name }}</a>
-                    <form action="/logout" method="post">
-                        @csrf
-                        <button type="submit" class="btn btn-primary rounded">Logout</button>
-                    </form>
+                    <a href="/">
+                        <img src="/images/peter.jpg" class="img profile-image rounded-pill" width="30" height="30">
+                        <span class="ms-2 text-dark">{{ auth()->user()->name }}</span>
+                    </a>
                 </div>
             @endauth
 

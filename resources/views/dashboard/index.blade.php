@@ -10,6 +10,10 @@
                     </h5>
                     <p class="mail">peterparker@zmail.com</p>
                     <button type="button" class="btn btn-custom btn-main px-3">Edit Profile</button>
+                    <form action="/logout" method="post">
+                        @csrf
+                        <button type="submit" class="btn btn-primary rounded">Logout</button>
+                    </form>
                 </div>
 
 
