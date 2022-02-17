@@ -6,6 +6,7 @@ use App\Http\Controllers\Auth\LogoutController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Models\Competition;
 use App\Models\Course;
+use App\Models\Feature;
 use App\Models\Scholarship;
 use App\Models\Webinar;
 
@@ -28,7 +29,8 @@ Route::get('/', function () {
 
 Route::get('/dashboard', function () {
   return view('dashboard.index', [
-    'title' => 'Dashboard'
+    'title' => 'Dashboard',
+    'featureList' => Feature::all()
   ]);
 })->name('dashboard');
 
