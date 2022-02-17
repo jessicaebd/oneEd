@@ -32,7 +32,7 @@
                                             <div class="card-text xs-font d-flex mt-5">
                                                 <div class="col-10">
                                                     <small class="text-muted">
-                                                        {{ $scholarship['eventDate'] }}</small>
+                                                        {{ $scholarship['dueDate'] }}</small>
                                                     <br>
                                                     <small class="text-muted">
                                                         {{ $scholarship['time'] }}</small>
@@ -77,7 +77,7 @@
                                             <div class="card-text xs-font d-flex mt-5">
                                                 <div class="col-10">
                                                     <small class="text-muted">
-                                                        {{ $scholarship['eventDate'] }}</small>
+                                                        {{ $scholarship['dueDate'] }}</small>
                                                     <br>
                                                     <small class="text-muted">
                                                         {{ $scholarship['time'] }}</small>
@@ -122,7 +122,7 @@
                                             <div class="card-text xs-font d-flex mt-5">
                                                 <div class="col-10">
                                                     <small class="text-muted">
-                                                        {{ $scholarship['eventDate'] }}</small>
+                                                        {{ $scholarship['dueDate'] }}</small>
                                                     <br>
                                                     <small class="text-muted">
                                                         {{ $scholarship['time'] }}</small>
@@ -173,11 +173,11 @@
 
                             <small class="card-text text-muted mb-1">
                                 <a href="#"
-                                    class="card-text text-decoration-none text-muted xs-font">{{ $scholarship['speaker'] }}</a>
+                                    class="card-text text-decoration-none text-muted xs-font">{{ $scholarship['organization'] }}</a>
                             </small>
 
                             <small class="card-text text-muted xs-font">
-                                <i class="bi bi-clock"></i> {{ $scholarship['eventDate'] }}
+                                <i class="bi bi-clock"></i> {{ $scholarship['dueDate'] }}
                             </small>
 
                             <a href="scholarships/{{ $scholarship['slug'] }}"

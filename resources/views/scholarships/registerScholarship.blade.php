@@ -12,8 +12,8 @@
 
 
                     <div class="justify-content-center">
-                        <img src="https://source.unsplash.com/1600x900?{{ $scholarship['title'] }}"
-                            class="d-block mx-lg-auto img-fluid" alt="..." style="max-height: 400px" loading="lazy">
+                        <img src="/images/scholarship/{{ $scholarship['poster'] }}" class="d-block mx-lg-auto img-fluid"
+                            alt="..." style="max-height: 400px" loading="lazy">
                     </div>
 
                     <br>
@@ -21,13 +21,13 @@
                     <div class="row text-dark s-font fw-bold text-center">
                         <div class="col-12 col-sm-4">
                             <img src="/images/icons/calendar.png" alt="" style="height: 20px;">
-                            {{ $scholarship['eventDate'] }}
+                            {{ $scholarship['dueDate'] }}
                         </div>
                         <div class="col-12 col-sm-4">
                             <img src="/images/icons/time.png" alt="" style="height: 20px;"> {{ $scholarship['time'] }}
                         </div>
                         <div class="col-12 col-sm-4">
-                            <img src="/images/icons/placeholder.png" alt="" style="height: 20px;"> Zoom
+                            <img src="/images/icons/placeholder.png" alt="" style="height: 20px;"> Email
                         </div>
                     </div>
 
@@ -38,7 +38,7 @@
 
                     <div class="form-check form-switch">
                         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                        <label class="form-check-label" for="flexSwitchCheckDefault">Remind me for scholarship's event
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Remind me for scholarship's due
                             date</label>
                     </div>
 

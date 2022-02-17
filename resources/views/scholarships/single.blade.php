@@ -27,7 +27,7 @@
                     <div class="row text-dark s-font fw-bold">
                         <div class="col-6">
                             <img src="/images/icons/calendar.png" alt="" style="height: 20px;">
-                            {{ $scholarship['eventDate'] }}
+                            {{ $scholarship['dueDate'] }}
                         </div>
                         <div class="col-6">
                             <img src="/images/icons/time.png" alt="" style="height: 20px;"> {{ $scholarship['time'] }}
