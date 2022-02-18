@@ -7,7 +7,7 @@
 }
 
 body {
-    min-height: 1500px;
+    /* min-height: 1500px; */
     display: flex;
     flex-direction: column;
     font-family: "Poppins", sans-serif;
@@ -64,6 +64,7 @@ a {
 .btn-custom:hover {
     color: var(--blue);
     background-color: #ffffff;
+    border: 1px solid var(--blue);
     transform: scale(1.1);
 }
 

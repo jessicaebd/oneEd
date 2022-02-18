@@ -71,8 +71,8 @@ Route::get('/webinars/{slug}', function ($slug) {
 });
 
 Route::get('/webinars/{slug}/register', function ($slug) {
-  return view('webinars.registerWebinar', [
-    'title' => 'RegisterWebinar',
+  return view('webinars.register', [
+    'title' => 'Register Webinar',
     'webinar' => Webinar::find($slug)
   ]);
 });

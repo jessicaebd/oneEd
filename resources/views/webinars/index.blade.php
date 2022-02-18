@@ -176,6 +176,8 @@
                                     class="card-text text-decoration-none text-muted xs-font">{{ $webinar['speaker'] }}</a>
                             </small>
 
+                            <h5 class="fw-bold text-blue">Rp 30.000</h5>
+
                             <small class="card-text text-muted xs-font">
                                 <i class="bi bi-clock"></i> {{ $webinar['eventDate'] }}
                             </small>
