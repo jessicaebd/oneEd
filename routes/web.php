@@ -32,7 +32,7 @@ Route::get('/chat', function () {
     'title' => 'Chat',
     'webinarList' => Webinar::all()
   ]);
-})->name('home');
+})->name('chat');
 
 Route::get('/dashboard', function () {
   return view('dashboard.index', [
@@ -96,6 +96,12 @@ Route::get('/webinars', function () {
     'webinarList' => Webinar::all()
   ]);
 })->name('webinars');
+
+Route::get('/createWebinars', function () {
+  return view('webinars.create', [
+    'title' => 'CreateWebinar'
+  ]);
+})->name('createWebinar');
 
 Route::get('/webinars/{slug}', function ($slug) {
   return view('webinars.single', [
