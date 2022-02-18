@@ -92,8 +92,8 @@ Route::get('/competitions/{slug}', function ($slug) {
 });
 
 Route::get('/competitions/{slug}/register', function ($slug) {
-  return view('competitions.registerCompetition', [
-    'title' => 'RegisterCompetition',
+  return view('competitions.register', [
+    'title' => 'Register Competition',
     'competition' => Competition::find($slug)
   ]);
 });
@@ -113,8 +113,8 @@ Route::get('/scholarships/{slug}', function ($slug) {
 });
 
 Route::get('/scholarships/{slug}/register', function ($slug) {
-  return view('scholarships.registerScholarship', [
-    'title' => 'RegisterScholarship',
+  return view('scholarships.register', [
+    'title' => 'Register Scholarship',
     'scholarship' => Scholarship::find($slug)
   ]);
 });

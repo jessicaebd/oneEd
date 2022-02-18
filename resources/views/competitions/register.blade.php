@@ -5,25 +5,21 @@
         <div class="row d-flex justify-content-center">
             <div class="left-box col-md-6 px-5">
                 <div class="row flex-lg-row justify-content-center">
-                    <h1 class="display-5 fs-3 fw-bold lh-1 mb-3 text-center">{{ $webinar['title'] }}</h1>
+                    <h1 class="display-5 fs-3 fw-bold lh-1 mb-3 text-center">{{ $competition['title'] }}</h1>
 
                     <div class="d-flex justify-content-center mb-3">
-                        <img src="/images/webinar/{{ $webinar['poster'] }}" class="img-fluid rounded my-2" alt="..."
-                            style="max-height: 300px">
+                        <img src="/images/competition/{{ $competition['poster'] }}" class="img-fluid rounded my-2"
+                            alt="..." style="max-height: 300px">
                     </div>
 
                     <div class="row text-dark s-font fw-bold text-center">
-                        <div class="col-12 col-sm-4 mb-2">
+                        <div class="col-12 col-sm-6 mb-2">
                             <img src="/images/icons/calendar.png" alt="" style="height: 20px;">
-                            {{ $webinar['eventDate'] }}
+                            {{ $competition['eventDate'] }}
                         </div>
-
-                        <div class="col-12 col-sm-4 mb-2">
-                            <img src="/images/icons/time.png" alt="" style="height: 20px;">{{ $webinar['time'] }}
-                        </div>
-
-                        <div class="col-12 col-sm-4 mb-2">
-                            <img src="/images/icons/placeholder.png" alt="" style="height: 20px;"> Zoom
+                        <div class="col-12 col-sm-6 mb-2">
+                            <img src="/images/icons/accept.png" alt="" style="height: 20px;">
+                            {{ $competition['organizer'] }}
                         </div>
                     </div>
 
@@ -51,7 +47,7 @@
                 <div class="payment-detail">
                     <div>
                         <p class="fw-bold">Payment Details</p>
-                        <p class="dis mb-3">Complete your purchase to join webinar.</p>
+                        <p class="dis mb-3">Complete your purchase to join competition.</p>
                     </div>
 
                     <form class="my-2">
@@ -124,7 +120,7 @@
                                                 <div class="modal-footer-button">
                                                     <button onclick="location.href='/'" type="button"
                                                         class="btn btn-main p-2" style="width: 100%">
-                                                        Go to webinar</button>
+                                                        Go to competition</button>
                                                 </div>
                                             </div>
                                         </div>
