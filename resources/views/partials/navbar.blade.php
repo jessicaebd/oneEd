@@ -33,8 +33,7 @@
                 </li>
 
                 <li class="nav-item ms-3">
-                    <a class="nav-link {{ $title === 'Contact' ? 'active' : '' }}"
-                        href="{{ route('dashboard') }}">Contact Us</a>
+                    <a class="nav-link {{ $title === 'Contact' ? 'active' : '' }}" href="#">Contact Us</a>
                 </li>
             </ul>
 
@@ -61,6 +60,7 @@
 
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
                             <li><a class="dropdown-item" href="{{ route('dashboard') }}">Profile</a></li>
+                            <li><a class="dropdown-item" href="{{ route('createWebinar') }}">Create Webinar</a></li>
                             <li><a class="dropdown-item" href="#">Settings</a></li>
                             <li><a class="dropdown-item" href="#">Account</a></li>
                             <li>
