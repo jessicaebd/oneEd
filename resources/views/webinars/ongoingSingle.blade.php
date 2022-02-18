@@ -51,6 +51,9 @@
           </div>
         </div>
 
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-3">
+          <a href="/chat" class="btn btn-main btn-custom mt-auto" style="padding: 10px 30px">Open Chat</a>
+        </div>
       </div>
 
     </div>
