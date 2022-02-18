@@ -9,24 +9,28 @@ class Feature
 {
     private static $feature_list = [
         [
+            'slug' => 'mycourses',
             'name' => 'Courses',
             'icon' => 'icons-competitions.png',
             'description' => 'Lorem ipsum dolor sit amet.',
             'total' => 10
         ],
         [
+            'slug' => 'mywebinars',
             'name' => 'Webinars',
             'icon' => 'icons-webinars.png',
             'description' => 'Lorem ipsum dolor sit amet.',
             'total' => 2
         ],
         [
+            'slug' => 'mycompetitions',
             'name' => 'Competitions',
             'icon' => 'icons-competitions.png',
             'description' => 'Lorem ipsum dolor sit amet.',
             'total' => 1
         ],
         [
+            'slug' => 'myscholarships',
             'name' => 'Scholarship',
             'icon' => 'icons-scholarships.png',
             'description' => 'Lorem ipsum dolor sit amet.',

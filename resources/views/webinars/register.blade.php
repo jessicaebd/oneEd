@@ -121,8 +121,8 @@
                                                 </div>
 
                                                 <div class="modal-footer-button">
-                                                    <button onclick="location.href='/'" type="button"
-                                                        class="btn btn-main p-2" style="width: 100%">
+                                                    <button onclick="location.href='{{ route('dashboard') }}'"
+                                                        type="button" class="btn btn-main p-2" style="width: 100%">
                                                         Go to webinar</button>
                                                 </div>
                                             </div>

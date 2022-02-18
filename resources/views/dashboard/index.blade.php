@@ -54,15 +54,15 @@
             @foreach ($featureList as $feature)
                 <div class="card-profile feature col-md-3 col-sm-6 mb-2 p-2 m-2 align-items-center"
                     style="max-width: 170px">
-                    <a href="/webinars">
+                    <a href="/dashboard/{{ $feature['slug'] }}">
                         <img class="bd-placeholder-img mt-2" width="50" height="50"
                             src="/images/icons/{{ $feature['icon'] }}" />
-                    </a>
 
-                    <div class="card-profile-body">
-                        <h6 class="mt-2 display-10 fw-bold">{{ $feature['name'] }}</h6>
-                        <p class="card-profile-text fw-bold l-font">{{ $feature['total'] }}</p>
-                    </div>
+                        <div class="card-profile-body">
+                            <h6 class="mt-2 display-10 fw-bold text-dark">{{ $feature['name'] }}</h6>
+                            <p class="card-profile-text fw-bold l-font text-dark">{{ $feature['total'] }}</p>
+                        </div>
+                    </a>
                 </div>
             @endforeach
 

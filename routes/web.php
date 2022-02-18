@@ -34,6 +34,34 @@ Route::get('/dashboard', function () {
   ]);
 })->name('dashboard');
 
+Route::get('/dashboard/mycourses', function () {
+  return view('courses.ongoing', [
+    'title' => 'My Courses',
+    'coursesList' => Course::all()
+  ]);
+})->name('Courses');
+
+Route::get('/dashboard/mywebinars', function () {
+  return view('webinars.ongoing', [
+    'title' => 'My Webinars',
+    'webinarList' => Webinar::all()
+  ]);
+})->name('Webinars');
+
+Route::get('/dashboard/mycompetitions', function () {
+  return view('competitions.ongoing', [
+    'title' => 'My Competitions',
+    'competitionList' => Competition::all()
+  ]);
+})->name('Competitions');
+
+Route::get('/dashboard/myscholarships', function () {
+  return view('scholarships.ongoing', [
+    'title' => 'My Scholarship',
+    'scholarshipList' => Scholarship::all()
+  ]);
+})->name('Scholarships');
+
 Route::get('/courses', function () {
   return view('courses.index', [
     'title' => 'Courses',
