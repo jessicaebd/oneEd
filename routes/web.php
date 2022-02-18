@@ -49,8 +49,8 @@ Route::get('/courses/{slug}', function ($slug) {
 });
 
 Route::get('/courses/{slug}/register', function ($slug) {
-  return view('courses.registerCourse', [
-    'title' => 'RegisterCourse',
+  return view('courses.register', [
+    'title' => 'Register Course',
     'course' => Course::find($slug)
   ]);
 });

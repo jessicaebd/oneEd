@@ -31,6 +31,7 @@ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+
 
 <!-- CSS Files -->
 <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/pop-up.css">
 
 <link rel="icon" type="image/png" href="/images/logo/logo-1.png">
 <title>{{ $title }} | OneEd</title>
@@ -43,6 +44,7 @@ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+
 
     @include('partials.footer')
 
+    <script src="/js/index.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
