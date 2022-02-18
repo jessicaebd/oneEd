@@ -40,13 +40,17 @@
 
             @auth
                 <div class="d-flex">
-                    <div class="notif px-2 border-end">
+                    <div class="notif px-2 border-end align-items-center">
                         <img src="/images/icons/notification.png" alt="" style="height: 20px;">
+                        <a href="/chat">
+                            <i class="bi bi-chat-dots text-dark fw-bold" style="font-size: 18px"></i>
+                        </a>
                     </div>
 
                     <div class="dropdown px-2">
                         <a class="" href="{{ route('dashboard') }}" role="button" id="dropdownMenuLink"
                             data-bs-toggle="dropdown" aria-expanded="false">
+
                             <img src="/images/peter.jpg" class="img profile-image rounded-pill" width="25" height="25">
                             <span class="ms-2 text-dark">{{ auth()->user()->name }}</span>
                         </a>

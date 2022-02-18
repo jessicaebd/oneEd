@@ -2,6 +2,8 @@
 
 @section('container')
     <div class="container pt-5 mt-5">
+        <h1 class="text-center p-3 mb-3 fs-2"><b>My Scholarships</b></h1>
+
         <div class="row justify-content-center">
             @foreach ($scholarshipList as $scholarship)
                 <div class="card mb-3" style="width: 75%">

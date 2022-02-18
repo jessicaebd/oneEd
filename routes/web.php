@@ -27,6 +27,12 @@ Route::get('/', function () {
   ]);
 })->name('home');
 
+Route::get('/chat', function () {
+  return view('chat.index', [
+    'title' => 'Chat'
+  ]);
+})->name('home');
+
 Route::get('/dashboard', function () {
   return view('dashboard.index', [
     'title' => 'Dashboard',
