@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@500&family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 :root {
@@ -7,27 +6,25 @@
 }
 
 body {
-    /* min-height: 1500px; */
     display: flex;
     flex-direction: column;
     font-family: "Poppins", sans-serif;
-    /* font-family: Montserrat; */
     --animate-duration: 4s;
-    /* letter-spacing: 0.5px; */
-    background-color: #ffffff;
-}
-
-.mt-100 {
-    margin-top: 100px;
 }
 
 a {
     text-decoration: none;
 }
 
-.card-category {
-    text-transform: capitalize;
+footer {
+    margin-top: auto;
 }
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+/* Text Size */
 
 .l-font {
     font-size: 1.3rem;
@@ -45,9 +42,13 @@ a {
     font-size: 0.7rem;
 }
 
+/* Text Color */
+
 .text-blue {
     color: var(--blue);
 }
+
+/* Background Color */
 
 .bg-blue {
     background-color: var(--blue);
@@ -57,13 +58,21 @@ a {
     background-color: var(--grey);
 }
 
+/* Button */
+
+.btn-main {
+    background-color: var(--blue);
+    color: white;
+    border-radius: 15px;
+}
+
 .btn-custom {
     transition: all 0.2s;
 }
 
 .btn-custom:hover {
-    color: var(--blue);
     background-color: #ffffff;
+    color: var(--blue);
     border: 1px solid var(--blue);
     transform: scale(1.1);
 }
@@ -124,18 +133,8 @@ a {
 
 /* End of Header */
 
-.btn-main {
-    background-color: var(--blue);
-    color: white;
-    border-radius: 15px;
-}
-
-footer {
-    margin-top: auto;
-}
-
 /* Profile */
-.card {
+.card-profile {
     background-color: #fff;
     width: 100%;
     border-radius: 33px;
@@ -143,9 +142,8 @@ footer {
     padding: 2rem !important;
 }
 
-.top-container {
-    display: flex;
-    align-items: center;
+.card-category {
+    text-transform: capitalize;
 }
 
 .profile-image {
@@ -153,27 +151,12 @@ footer {
     border: 2px solid var(--blue);
 }
 
-.name {
-    font-size: 15px;
-    font-weight: bold;
-    color: #272727;
-    position: relative;
-    top: 8px;
-}
-
-.mail {
-    font-size: 14px;
-    color: grey;
-    position: relative;
-    top: 2px;
-}
-
-.middle-container {
+.current-balance {
     background-color: #eee;
     border-radius: 12px;
 }
 
-.middle-container:hover {
+.current-balance:hover {
     border: 1px solid var(--blue);
 }
 
@@ -194,30 +177,6 @@ footer {
     text-align: center;
 }
 
-.dollar {
-    font-size: 16px !important;
-    color: var(--blue) !important;
-    font-weight: bold !important;
-}
-
-.current-balance {
-    font-size: 15px;
-    color: #272727;
-    font-weight: bold;
-}
-
-.amount {
-    color: var(--blue);
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.dollar-sign {
-    font-size: 16px;
-    color: #272727;
-    font-weight: bold;
-}
-
 .recent-border {
     border-left: 2px solid var(--blue);
     display: flex;
@@ -235,22 +194,12 @@ footer {
     margin-left: 2px;
 }
 
-.wishlist {
+.orders-profile {
     font-size: 16px;
     font-weight: 700;
     color: #272727;
 }
 
-.wishlist-border:hover {
-    border-bottom: 1px solid #dee2e6 !important;
-}
-
-.fashion-studio {
-    font-size: 16px;
-    font-weight: 700;
-    color: #272727;
-}
-
-.fashion-studio-border:hover {
+.orders-profile-border:hover {
     border-bottom: 1px solid #dee2e6 !important;
 }

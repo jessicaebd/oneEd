@@ -30,8 +30,7 @@
             </div>
 
             <div class="right-box col-md-6 px-5">
-                <div
-                    class="current-balance middle-container d-flex justify-content-between align-items-center mt-3 p-2 mb-3">
+                <div class="current-balance d-flex justify-content-between align-items-center mt-3 p-2 mb-3">
                     <div class="dollar-div px-3">
                         <div class="round-div">
                             <i class="bi bi-currency-dollar l-font text-muted"></i>
@@ -39,8 +38,8 @@
                     </div>
 
                     <div class="d-flex flex-column text-right mr-2">
-                        <span class="current-balance">Current Balance</span>
-                        <span class="amount">Rp 99.000</span>
+                        <span class="m-font fw-bold">Current Balance</span>
+                        <span class="m-font fw-bold text-blue">Rp 99.000</span>
                     </div>
                 </div>
 
@@ -98,7 +97,7 @@
                                 <div class="modal-dialog">
                                     <div class="modal-content bg-transparent" style="border: none;">
                                         <div class="modal-body">
-                                            <div class="card d-flex text-center">
+                                            <div class="card-profile text-center">
                                                 <div class="close-button d-flex justify-content-end">
                                                     <button type="button" class="btn-close d-flex justify-content-end"
                                                         data-bs-dismiss="modal" aria-label="Close"></button>
