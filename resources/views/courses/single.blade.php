@@ -76,7 +76,10 @@
           absolute basics of how to hold and tune a guitar, all the way to being able to play chords, scales and full
           songs and guitar solos. You’ll feel confident learning with our easy-to-follow lessons that build on your skills
           slowly, so you move on to the next level with ease.
-          <br><br>
+        </p><br>
+        <h1 class="text-blue l-font fw-bold">Course Structure</h1>
+        <p class="s-font">
+          <b>Week 1 - Introduction</b><br>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus incidunt aliquid
           possimus repellat. Hic
           mollitia exercitationem iusto, sit perferendis placeat tempore non. Quaerat, blanditiis quasi
@@ -88,6 +91,31 @@
           repellat eligendi, porro quae impedit commodi laborum nostrum accusamus nam at quasi unde nihil quos
           magni consequuntur nemo sit.
           <br><br>
+          <b>Week 2 - Basic Chords</b><br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus incidunt aliquid
+          possimus repellat. Hic
+          mollitia exercitationem iusto, sit perferendis placeat tempore non. Quaerat, blanditiis quasi
+          repudiandae, sunt enim numquam optio consequatur ab quibusdam magni est eum ex odio illum sit, nihil
+          molestias. Totam, aliquam. Quos ab ullam atque omnis eveniet pariatur saepe molestiae expedita ipsa
+          quas
+          consequatur voluptatibus illo a quidem repudiandae, in reiciendis corrupti dignissimos ea adipisci
+          itaque totam veniam? Deserunt unde quas architecto molestias facilis! Dolorum totam aliquid nobis
+          repellat eligendi, porro quae impedit commodi laborum nostrum accusamus nam at quasi unde nihil quos
+          magni consequuntur nemo sit.
+          <br><br>
+          <b>Week 3 - Strumming Pattern</b><br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus incidunt aliquid
+          possimus repellat. Hic
+          mollitia exercitationem iusto, sit perferendis placeat tempore non. Quaerat, blanditiis quasi
+          repudiandae, sunt enim numquam optio consequatur ab quibusdam magni est eum ex odio illum sit, nihil
+          molestias. Totam, aliquam. Quos ab ullam atque omnis eveniet pariatur saepe molestiae expedita ipsa
+          quas
+          consequatur voluptatibus illo a quidem repudiandae, in reiciendis corrupti dignissimos ea adipisci
+          itaque totam veniam? Deserunt unde quas architecto molestias facilis! Dolorum totam aliquid nobis
+          repellat eligendi, porro quae impedit commodi laborum nostrum accusamus nam at quasi unde nihil quos
+          magni consequuntur nemo sit.
+          <br><br>
+          <b>Week 4 - Simple Songs</b><br>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus incidunt aliquid
           possimus repellat. Hic
           mollitia exercitationem iusto, sit perferendis placeat tempore non. Quaerat, blanditiis quasi
