@@ -13,7 +13,7 @@ class Course
             'title' => 'How to Play Guitar',
             'category' => 'Music',
             'mentorName' => 'Fiersa Kecili',
-            'description' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa vitae, laborum voluptas, accusamus quod, neque minus dolore molestiae enim inventore ipsam eum exercitationem temporibus harum?',
+            'description' => 'Learn how to play guitar! Our Beginner guitar lesson courses will take you from the absolute basics of how to hold and tune a guitar, all the way to being able to play chords, scales and full songs and guitar solos. You’ll feel confident learning with our easy-to-follow lessons that build on your skills slowly, so you move on to the next level with ease.',
             'duration' => 10
         ],
         [
@@ -29,7 +29,7 @@ class Course
             'title' => 'Introduction to C++',
             'category' => 'Programming',
             'mentorName' => 'Maaruf Amin',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
+            'description' => 'This specialization is intended for people without programming experience who seek to develop C++ programming skills and learn about the underlying computer science concepts that will allow them to pick up other programming languages quickly. In these four courses, you will cover everything from fundamentals to object-oriented design.',
             'duration' => 30
         ],
         [
@@ -37,7 +37,7 @@ class Course
             'title' => 'Mindfulness',
             'category' => 'Mindfulness',
             'mentorName' => 'Kevin Jow',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
+            'description' => 'This course offers research-based strategies for building resilience to stress and fortifying our well-being in the face of challenges. It explains the biological and psychological impact of stress, helps you distinguish between harmful and helpful forms of stress at work, and provides strategies for handling stress in healthy and productive ways.',
             'duration' => 12
         ],
         [
@@ -61,7 +61,7 @@ class Course
             'title' => 'Introduction to Laravel 8',
             'category' => 'Programming',
             'mentorName' => 'Tony Stark',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.',
+            'description' => 'This tutorial will guide the developers and students who want to learn how to develop a website using Laravel. This tutorial is particularly meant for all those developers who have no prior experience of using Laravel.',
             'duration' => 40
         ],
         [
