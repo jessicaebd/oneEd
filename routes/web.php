@@ -29,7 +29,8 @@ Route::get('/', function () {
 
 Route::get('/chat', function () {
   return view('chat.index', [
-    'title' => 'Chat'
+    'title' => 'Chat',
+    'webinarList' => Webinar::all()
   ]);
 })->name('home');
 
