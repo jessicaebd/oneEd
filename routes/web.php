@@ -55,6 +55,14 @@ Route::get('/dashboard/mywebinars', function () {
   ]);
 })->name('Webinars');
 
+Route::get('/dashboard/mywebinars/{slug}', function ($slug) {
+  return view('webinars.ongoingSingle', [
+    'title' => 'Webinar',
+    'webinarList' => Webinar::all(),
+    'webinar' => Webinar::find($slug)
+  ]);
+})->name('Webinars');
+
 Route::get('/dashboard/mycompetitions', function () {
   return view('competitions.ongoing', [
     'title' => 'My Competitions',
