@@ -42,7 +42,9 @@
                 <div class="d-flex">
                     <div class="notif px-2 border-end align-items-center">
                         <a href="#" class="me-2">
+
                             <img src="/images/icons/notification.png" alt="" style="height: 20px; width: 20px;">
+
                         </a>
                         <a href="/chat" class="me-2">
                             <img src="/images/icons/messenger.png" alt="" style="height: 18px; width: 18px;">
