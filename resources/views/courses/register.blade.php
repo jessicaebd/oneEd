@@ -8,8 +8,8 @@
                     <h1 class="display-5 fs-3 fw-bold lh-1 mb-3 text-center">{{ $course['title'] }}</h1>
 
                     <div class="d-flex justify-content-center mb-3">
-                        <img src="https://source.unsplash.com/1600x900?{{ $course['title'] }}"
-                            class="img-fluid rounded my-2" alt="..." style="max-height: 300px">
+                        <img src="/images/course/{{ $course['poster'] }}" class="img-fluid rounded my-2" alt="..."
+                            style="max-height: 300px">
                     </div>
 
                     <div class="row text-dark s-font fw-bold text-center">

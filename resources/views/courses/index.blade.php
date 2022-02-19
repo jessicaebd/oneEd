@@ -14,7 +14,7 @@
                                 style="min-height: 280px; max-width: 1150px; border-radius: 1rem;">
                                 <div class="row g-0 d-flex">
                                     <div class="col-md-5 d-flex justify-content-center">
-                                        <img src="https://source.unsplash.com/1600x900?{{ $course['title'] }}"
+                                        <img src="/images/course/{{ $course['poster'] }}"
                                             class="card-img img-fluid rounded my-2" alt="..." style="max-height: 250px">
                                     </div>
 
@@ -59,7 +59,7 @@
                                 style="min-height: 280px; max-width: 1150px; border-radius: 1rem;">
                                 <div class="row g-0 d-flex">
                                     <div class="col-md-5 d-flex justify-content-center">
-                                        <img src="https://source.unsplash.com/1600x900?{{ $course['title'] }}"
+                                        <img src="/images/course/{{ $course['poster'] }}"
                                             class="card-img img-fluid rounded my-2" alt="..." style="max-height: 250px">
                                     </div>
 
@@ -104,7 +104,7 @@
                                 style="min-height: 280px; max-width: 1150px; border-radius: 1rem;">
                                 <div class="row g-0 d-flex">
                                     <div class="col-md-5 d-flex justify-content-center">
-                                        <img src="https://source.unsplash.com/1600x900?{{ $course['title'] }}"
+                                        <img src="/images/course/{{ $course['poster'] }}"
                                             class="card-img img-fluid rounded my-2" alt="..." style="max-height: 250px">
                                     </div>
 
@@ -164,7 +164,7 @@
             @foreach ($coursesList as $course)
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
                     <div class="card" style="min-height: 325px;">
-                        <img src="https://source.unsplash.com/1600x900?{{ $course['title'] }}" class="card-img-top"
+                        <img src="/images/course/{{ $course['poster'] }}" class="card-img-top"
                             alt="...">
 
                         <div class="card-body d-flex flex-column">
@@ -200,9 +200,8 @@
             @foreach ($coursesList as $course)
                 <div class="card mb-2 p-2 shadow-sm">
                     <div class="row no-gutters">
-                        <div class="col-md-3">
-                            <img src="https://source.unsplash.com/1600x900?{{ $course['title'] }}" class="card-img"
-                                alt="...">
+                        <div class="col-md-3 justify-content-center" style="display: flex ; align-items: center">
+                            <img src="/images/course/{{ $course['poster'] }}" class="card-img" alt="...">
                         </div>
                         <div class="col-md-9">
                             <div class="card-body">

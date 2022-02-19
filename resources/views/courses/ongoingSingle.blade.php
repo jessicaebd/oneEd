@@ -6,8 +6,8 @@
             <div class="row flex-lg-row g-5 py-5">
 
                 <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="https://source.unsplash.com/1600x900?{{ $course['title'] }}"
-                        class="d-block mx-lg-auto img-fluid" alt="..." style="max-height: 400px" loading="lazy">
+                    <img src="/images/course/{{ $course['poster'] }}" class="d-block mx-lg-auto img-fluid" alt="..."
+                        style="max-height: 400px" loading="lazy">
                 </div>
 
                 <div class="col-lg-6">

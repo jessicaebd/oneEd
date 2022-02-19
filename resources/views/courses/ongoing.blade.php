@@ -9,8 +9,8 @@
                 <div class="card mb-3" style="width: 75%">
                     <div class="row g-0">
                         <div class="col-md-2 d-flex justify-content-center">
-                            <img src="https://source.unsplash.com/1600x900?{{ $course['title'] }}"
-                                class="img-fluid rounded-start my-2" alt="..." style="max-height: 100px" loading="lazy">
+                            <img src="/images/course/{{ $course['poster'] }}" class="img-fluid rounded-start my-2"
+                                alt="..." style="max-height: 100px" loading="lazy">
                         </div>
 
                         <div class="col-md-10">
