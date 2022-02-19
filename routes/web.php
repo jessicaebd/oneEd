@@ -105,23 +105,34 @@ Route::get('/webinars', function () {
   ]);
 })->name('webinars');
 
-Route::get('/createWebinars', function () {
-  return view('webinars.create', [
-    'title' => 'Create Webinar'
-  ]);
-})->name('createWebinar');
 
-Route::get('/createScholarships', function () {
+// Create New Post
+Route::get('/createCompetition', function () {
+  return view('competitions.create', [
+    'title' => 'Create Competition'
+  ]);
+})->name('createCompetition');
+
+Route::get('/createCourse', function () {
+  return view('courses.create', [
+    'title' => 'Create Course'
+  ]);
+})->name('createCourse');
+
+Route::get('/createScholarship', function () {
   return view('scholarships.create', [
     'title' => 'Create Scholarship'
   ]);
 })->name('createScholarship');
 
-Route::get('/createCompetitions', function () {
-  return view('competitions.create', [
-    'title' => 'Create Competition'
+Route::get('/createWebinar', function () {
+  return view('webinars.create', [
+    'title' => 'Create Webinar'
   ]);
-})->name('createCompetition');
+})->name('createWebinar');
+
+// End of Create New Post
+
 
 Route::get('/webinars/{slug}', function ($slug) {
   return view('webinars.single', [

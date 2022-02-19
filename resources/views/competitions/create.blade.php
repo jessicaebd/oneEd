@@ -34,6 +34,18 @@
 
                         <div class="row align-items-center py-3">
                             <div class="col-md-3 ps-5">
+                                <h6 class="mb-0">Price (Rp.)</h6>
+                            </div>
+
+                            <div class="col-md-9 pe-5">
+                                <input type="text" class="form-control" placeholder="15,000" />
+                            </div>
+                        </div>
+
+                        <hr class="mx-n3">
+
+                        <div class="row align-items-center py-3">
+                            <div class="col-md-3 ps-5">
                                 <h6 class="mb-0">Description</h6>
                             </div>
 

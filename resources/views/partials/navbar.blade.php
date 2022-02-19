@@ -60,6 +60,8 @@
 
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
                             <li><a class="dropdown-item" href="{{ route('dashboard') }}">Profile</a></li>
+                            <li><a class="dropdown-item" href="{{ route('createCourse') }}">Create Course</a>
+                            </li>
                             <li><a class="dropdown-item" href="{{ route('createCompetition') }}">Create Competition</a>
                             </li>
                             <li><a class="dropdown-item" href="{{ route('createWebinar') }}">Create Webinar</a></li>

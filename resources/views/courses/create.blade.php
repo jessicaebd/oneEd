@@ -2,7 +2,7 @@
 
 @section('container')
     <div class="container py-5 mt-5">
-        <h1 class="mb-5 fs-3 text-dark text-center"><b>Create New Webinar</b></h1>
+        <h1 class="mb-5 fs-3 text-dark text-center"><b>Create New Course</b></h1>
 
         <div class="row d-flex justify-content-center align-items-center s-font">
             <div class="col-xl-9">
@@ -10,19 +10,7 @@
                     <div class="card-body">
                         <div class="row align-items-center pt-4 pb-3">
                             <div class="col-md-3 ps-5">
-                                <h6 class="mb-0">Webinar Title</h6>
-                            </div>
-
-                            <div class="col-md-9 pe-5">
-                                <input type="text" class="form-control" />
-                            </div>
-                        </div>
-
-                        <hr class="mx-n3">
-
-                        <div class="row align-items-center py-3">
-                            <div class="col-md-3 ps-5">
-                                <h6 class="mb-0">Speaker</h6>
+                                <h6 class="mb-0">Course Title</h6>
                             </div>
 
                             <div class="col-md-9 pe-5">
@@ -46,12 +34,28 @@
 
                         <div class="row align-items-center py-3">
                             <div class="col-md-3 ps-5">
+                                <h6 class="mb-0">Duration</h6>
+                            </div>
+
+                            <div class="col-md-2 pe-3">
+                                <input type="number" class="form-control" min="1" placeholder="0" />
+                            </div>
+
+                            <div class="col-md-3 text-start">
+                                Weeks
+                            </div>
+                        </div>
+
+                        <hr class="mx-n3">
+
+                        <div class="row align-items-center py-3">
+                            <div class="col-md-3 ps-5">
                                 <h6 class="mb-0">Description</h6>
                             </div>
 
                             <div class="col-md-9 pe-5">
                                 <textarea class="form-control" rows="5"
-                                    placeholder="Describe your webinar here"></textarea>
+                                    placeholder="Describe your course here"></textarea>
                             </div>
                         </div>
 
@@ -98,7 +102,7 @@
 
                         <div class="row align-items-center py-3">
                             <div class="col-md-3 ps-5">
-                                <h6 class="mb-0">Event Date</h6>
+                                <h6 class="mb-0">Start Date</h6>
                             </div>
 
                             <div class="row col-md-9 pe-5">
@@ -122,7 +126,7 @@
 
                             <div class="col-md-9 pe-5">
                                 <input class="form-control" id="formFileLg" type="file" />
-                                <div class="small text-muted mt-2">Upload your webinar poster here.
+                                <div class="small text-muted mt-2">Upload your course poster here.
                                     Max file size 3 MB</div>
                             </div>
                         </div>
