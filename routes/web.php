@@ -107,9 +107,21 @@ Route::get('/webinars', function () {
 
 Route::get('/createWebinars', function () {
   return view('webinars.create', [
-    'title' => 'CreateWebinar'
+    'title' => 'Create Webinar'
   ]);
 })->name('createWebinar');
+
+Route::get('/createScholarships', function () {
+  return view('scholarships.create', [
+    'title' => 'Create Scholarship'
+  ]);
+})->name('createScholarship');
+
+Route::get('/createCompetitions', function () {
+  return view('competitions.create', [
+    'title' => 'Create Competition'
+  ]);
+})->name('createCompetition');
 
 Route::get('/webinars/{slug}', function ($slug) {
   return view('webinars.single', [

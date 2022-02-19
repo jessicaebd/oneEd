@@ -60,7 +60,11 @@
 
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
                             <li><a class="dropdown-item" href="{{ route('dashboard') }}">Profile</a></li>
+                            <li><a class="dropdown-item" href="{{ route('createCompetition') }}">Create Competition</a>
+                            </li>
                             <li><a class="dropdown-item" href="{{ route('createWebinar') }}">Create Webinar</a></li>
+                            <li><a class="dropdown-item" href="{{ route('createScholarship') }}">Create Scholarship</a>
+                            </li>
                             <li><a class="dropdown-item" href="#">Settings</a></li>
                             <li><a class="dropdown-item" href="#">Account</a></li>
                             <li>
