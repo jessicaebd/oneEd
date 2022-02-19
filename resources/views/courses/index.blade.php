@@ -204,7 +204,7 @@
                             <img src="/images/course/{{ $course['poster'] }}" class="card-img" alt="...">
                         </div>
                         <div class="col-md-9">
-                            <div class="card-body">
+                            <div class="card-body hover-zoom">
                                 <a href="courses/{{ $course['slug'] }}" class="text-decoration-none text-dark">
                                     <h5 class="card-title m-font"><b>{{ $course['title'] }}</b></h5>
                                 </a>
@@ -228,8 +228,6 @@
                                     <i class="bi bi-dot"></i>
                                     {{ $course['category'] }}
                                 </small>
-
-
                             </div>
                         </div>
 

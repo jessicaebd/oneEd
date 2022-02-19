@@ -120,10 +120,19 @@
                                                     <p>Yay! It's a nice order! <br>We will see you soon.</p>
                                                 </div>
 
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" role="switch"
+                                                        id="flexSwitchCheckDefault">
+                                                    <label class="form-check-label" for="flexSwitchCheckDefault">Remind me
+                                                        for the next course meeting</label>
+                                                </div>
+
+                                                <br>
+
                                                 <div class="modal-footer-button">
                                                     <button onclick="location.href='/'" type="button"
                                                         class="btn btn-main p-2" style="width: 100%">
-                                                        Go to course</button>
+                                                        Go to Course</button>
                                                 </div>
                                             </div>
                                         </div>

@@ -120,6 +120,15 @@
                                                     <p>Yay! It's a nice order! <br>We will see you soon.</p>
                                                 </div>
 
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" role="switch"
+                                                        id="flexSwitchCheckDefault">
+                                                    <label class="form-check-label" for="flexSwitchCheckDefault">Remind me
+                                                        for the webinar schedule</label>
+                                                </div>
+
+                                                <br>
+
                                                 <div class="modal-footer-button">
                                                     <button onclick="location.href='{{ route('dashboard') }}'"
                                                         type="button" class="btn btn-main p-2" style="width: 100%">
