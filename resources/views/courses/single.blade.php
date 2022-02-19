@@ -43,19 +43,19 @@
                         <h1 class="m-font fw-bold">What you will learn:</h1>
 
                         <div class="d-flex">
-                            <img src="/images/icons/calendar.png" alt="" class="me-2" style="height: 15px;">
+                            <img src="/images/icons/tick.png" alt="" class="me-2" style="height: 15px;">
                             <p class="m-0">Introduction</p>
                         </div>
                         <div class="d-flex">
-                            <img src="/images/icons/calendar.png" alt="" class="me-2" style="height: 15px;">
+                            <img src="/images/icons/tick.png" alt="" class="me-2" style="height: 15px;">
                             <p class="m-0">Basic Chords</p>
                         </div>
                         <div class="d-flex">
-                            <img src="/images/icons/calendar.png" alt="" class="me-2" style="height: 15px;">
+                            <img src="/images/icons/tick.png" alt="" class="me-2" style="height: 15px;">
                             <p class="m-0">Strumming Pattern</p>
                         </div>
                         <div class="d-flex">
-                            <img src="/images/icons/calendar.png" alt="" class="me-2" style="height: 15px;">
+                            <img src="/images/icons/tick.png" alt="" class="me-2" style="height: 15px;">
                             <p class="m-0">Simple Songs</p>
                         </div>
                     </div>
