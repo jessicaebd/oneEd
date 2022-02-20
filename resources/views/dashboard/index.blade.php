@@ -56,7 +56,7 @@
 
     <div class="container mb-5 py-5 text-center mx-auto content">
 
-        <h3 class="display-10 fw-bold mb-3">Current Progress</h3>
+        <h3 class="display-10 fw-bold mb-3" id="current-progress">Current Progress</h3>
 
         {{-- Features --}}
         <div class="row py-4 justify-content-center">

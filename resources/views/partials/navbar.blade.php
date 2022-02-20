@@ -38,7 +38,7 @@
             @auth
                 <div class="d-flex">
                     <div class="notif px-2 border-end align-items-center">
-                        <a href="#" class="me-2">
+                        <a href="{{ route('dashboard') }}/#current-progress" class="me-2">
 
                             <img src="/images/icons/notification.png" alt="" style="height: 20px; width: 20px;">
 

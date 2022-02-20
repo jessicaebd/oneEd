@@ -5,11 +5,15 @@
                 <div class="col-2">
                     <h5>Section</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Join as Organization</a>
+                        <li class="nav-item mb-2"><a href="{{ route('home') }}"
+                                class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="{{ route('login') }}"
+                                class="nav-link p-0 text-muted">Login</a></li>
+                        <li class="nav-item mb-2"><a href="{{ route('register') }}"
+                                class="nav-link p-0 text-muted">Register</a>
                         </li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+                        <li class="nav-item mb-2"><a href="{{ route('aboutUs') }}"
+                                class="nav-link p-0 text-muted">About Us</a></li>
                     </ul>
                 </div>
 
