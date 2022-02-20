@@ -84,6 +84,13 @@ Route::get('/dashboard/mycompetitions', function () {
   ]);
 })->name('Competitions');
 
+Route::get('/dashboard/mycompetitions/{slug}', function ($slug) {
+  return view('competitions.ongoingSingle', [
+    'title' => 'Competition',
+    'competition' => Competition::find($slug)
+  ]);
+})->name('Competitions');
+
 Route::get('/dashboard/myscholarships', function () {
   return view('scholarships.ongoing', [
     'title' => 'My Scholarship',
