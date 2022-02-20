@@ -5,7 +5,7 @@
         <div class="container-fluid mt-5 pt-5 pb-4 bg-grey" style="min-height: 1000px;">
             <div class="row flex-lg-row py-5 justify-content-center">
 
-                <div class="card mb-3 bg-light justify-content-center"
+                <div class="card bg-light justify-content-center py-5 px-5"
                     style="min-height: 700px; max-width: 800px; border-radius: 1rem;">
 
                     <h1 class="display-5 fs-1 fw-bold lh-1 mb-3 text-center">{{ $scholarship['title'] }}</h1>

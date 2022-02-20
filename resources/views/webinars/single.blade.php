@@ -110,7 +110,7 @@
 
         <div class="container-fluid mt-5">
             <h1 class="text-blue m-font fw-bold">Similar Event</h1>
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div id="myCarousel" class="carousel carousel-dark slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
