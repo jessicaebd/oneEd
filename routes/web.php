@@ -41,6 +41,12 @@ Route::get('/dashboard', function () {
   ]);
 })->name('dashboard');
 
+Route::get('/dashboard/aboutUs', function () {
+  return view('dashboard.about-us', [
+    'title' => 'About Us',
+  ]);
+})->name('aboutUs');
+
 Route::get('/dashboard/mycourses', function () {
   return view('courses.ongoing', [
     'title' => 'My Courses',

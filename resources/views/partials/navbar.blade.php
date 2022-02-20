@@ -33,7 +33,9 @@
                 </li>
 
                 <li class="nav-item ms-3">
-                    <a class="nav-link {{ $title === 'Contact' ? 'active' : '' }}" href="#">Contact Us</a>
+                    <a class="nav-link {{ $title === 'About Us' ? 'active' : '' }}"
+                        href="{{ route('aboutUs') }}">About
+                        Us</a>
                 </li>
             </ul>
 
