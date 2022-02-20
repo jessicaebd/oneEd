@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-    <div class="container-fluid mt-5 pt-5 pb-4">
+    <div class="container-fluid mt-5 py-5">
         <div class="row d-flex justify-content-center">
             <div class="left-box col-md-6 px-5">
                 <div class="row flex-lg-row justify-content-center">

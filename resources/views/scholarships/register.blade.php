@@ -2,7 +2,7 @@
 
 @section('container')
     <div class="bg-light text-dark">
-        <div class="container-fluid mt-5 pt-5 pb-4 bg-grey" style="min-height: 1000px;">
+        <div class="container-fluid mt-5 py-5 bg-grey" style="min-height: 1000px;">
             <div class="row flex-lg-row py-5 justify-content-center">
 
                 <div class="card bg-light justify-content-center py-5 px-5"

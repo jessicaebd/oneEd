@@ -1,4 +1,4 @@
-<div class="container-fluid bg-blue text-white mt-5">
+<div class="container-fluid bg-blue text-white pt-5">
     <div class="container">
         <footer class="py-5">
             <div class="row py-2">
