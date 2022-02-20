@@ -212,6 +212,12 @@ Route::get('/scholarships/{slug}/register', function ($slug) {
   ]);
 });
 
+Route::get('/organize', function () {
+  return view('organization.index', [
+    'title' => 'Organize Event'
+  ]);
+})->name('organize');
+
 Route::get('/login', [LoginController::class, 'index'])->name('login');
 
 Route::post('/login', [LoginController::class, 'store']);

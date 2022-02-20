@@ -126,9 +126,9 @@
                                                 <br>
 
                                                 <div class="modal-footer-button">
-                                                    <button onclick="location.href='/'" type="button"
+                                                    <button onclick="location.href='/chat'" type="button"
                                                         class="btn btn-main p-2" style="width: 100%">
-                                                        Go to competition</button>
+                                                        Go to Chat</button>
                                                 </div>
                                             </div>
                                         </div>

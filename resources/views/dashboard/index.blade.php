@@ -47,6 +47,13 @@
         </div>
     </div>
 
+
+    <div class="container mb-5 py-2 text-center mx-auto content">
+        <div class="mt-4">
+            <button type="button" class="btn btn-custom btn-main px-3">Request to be Organizer</button>
+        </div>
+    </div>
+
     <div class="container mb-5 py-5 text-center mx-auto content">
 
         <h3 class="display-10 fw-bold mb-3">Current Progress</h3>

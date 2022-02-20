@@ -43,9 +43,8 @@
                     </div>
 
                     <div class="d-grid gap-2 d-md-flex justify-content-md-center mt-3">
-                        <a href="/scholarships" class="btn btn-main btn-custom mt-auto fw-bolder"
-                            style="padding: 10px 35px">Back
-                            to Scholarships</a>
+                        <a href="/chat" class="btn btn-main btn-custom mt-auto fw-bolder" style="padding: 10px 35px">Go
+                            to Chats</a>
                     </div>
 
                 </div>
