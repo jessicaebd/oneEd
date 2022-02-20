@@ -38,6 +38,9 @@
 
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-3">
                     <a href="/chat" class="btn btn-main btn-custom mt-auto" style="padding: 10px 30px">Open Chat</a>
+                    <a href="/meeting/webinar/{{ $webinar['slug'] }}" class="btn btn-main btn-custom mt-auto"
+                        style="padding: 10px 30px">Join
+                        Meeting</a>
                 </div>
             </div>
         </div>

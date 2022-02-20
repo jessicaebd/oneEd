@@ -25,10 +25,6 @@
                         <li><a class="dropdown-item" href="{{ route('webinars') }}">Webinars</a></li>
                         <li><a class="dropdown-item" href="{{ route('competitions') }}">Competitions</a></li>
                         <li><a class="dropdown-item" href="{{ route('scholarships') }}">Scholarships</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="{{ route('organize') }}">Organize Event</a></li>
                     </ul>
                 </li>
 
@@ -62,6 +58,7 @@
 
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
                             <li><a class="dropdown-item" href="{{ route('dashboard') }}">Profile</a></li>
+                            <li><a class="dropdown-item" href="{{ route('organize') }}">Organize Event</a></li>
                             <li><a class="dropdown-item" href="#">Settings</a></li>
                             <li>
                                 <hr class="dropdown-divider">

@@ -218,6 +218,20 @@ Route::get('/organize', function () {
   ]);
 })->name('organize');
 
+Route::get('/meeting/course/{slug}', function ($slug) {
+  return view('meeting.course.index', [
+    'title' => 'Live Meeting Course',
+    'course' => Course::find($slug)
+  ]);
+});
+
+Route::get('/meeting/webinar/{slug}', function ($slug) {
+  return view('meeting.webinar.index', [
+    'title' => 'Webinar Meeting',
+    'webinar' => Webinar::find($slug)
+  ]);
+});
+
 Route::get('/login', [LoginController::class, 'index'])->name('login');
 
 Route::post('/login', [LoginController::class, 'store']);
