@@ -13,28 +13,28 @@ class Feature
             'name' => 'Courses',
             'icon' => 'icons-competitions.png',
             'description' => 'Lorem ipsum dolor sit amet.',
-            'total' => 10
+            'total' => 3
         ],
         [
             'slug' => 'mywebinars',
             'name' => 'Webinars',
             'icon' => 'icons-webinars.png',
             'description' => 'Lorem ipsum dolor sit amet.',
-            'total' => 2
+            'total' => 6
         ],
         [
             'slug' => 'mycompetitions',
             'name' => 'Competitions',
             'icon' => 'icons-competitions.png',
             'description' => 'Lorem ipsum dolor sit amet.',
-            'total' => 1
+            'total' => 4
         ],
         [
             'slug' => 'myscholarships',
             'name' => 'Scholarship',
             'icon' => 'icons-scholarships.png',
             'description' => 'Lorem ipsum dolor sit amet.',
-            'total' => 3
+            'total' => 6
         ],
     ];
 
