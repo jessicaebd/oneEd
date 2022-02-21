@@ -161,7 +161,7 @@
         <div class="row py-4">
             @foreach ($competitionList as $competition)
                 <div class="col-md-4 col-sm-6 mb-5">
-                    <div class="card shadow" style="min-height: 450px;">
+                    <div class="card shadow" style="min-height: 480px;">
                         <div class="d-flex justify-content-center">
                             <img src="/images/competition//{{ $competition['poster'] }}" class="img-fluid rounded my-2"
                                 alt="..." style="max-height: 250px">
@@ -178,6 +178,8 @@
                             <small class="card-text text-muted xs-font">
                                 <i class="bi bi-clock"></i> {{ $competition['eventDate'] }}
                             </small>
+
+                            <small class="text-blue m-font fw-bold mt-2">Free</small>
 
                             <a href="competitions/{{ $competition['slug'] }}"
                                 class="btn btn-primary btn-main btn-custom mt-auto">Register</a>

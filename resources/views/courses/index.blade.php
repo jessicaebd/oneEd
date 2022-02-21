@@ -156,44 +156,6 @@
     </div>
     <!-- End of featured Courses -->
 
-
-    <!-- Explore Courses -->
-    {{-- <div class="container mt-1">
-        <h1 class="text-center p-5 fs-2"> <b>Explore Courses</b></h1>
-        <div class="row">
-            @foreach ($coursesList as $course)
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
-                    <div class="card" style="min-height: 325px;">
-                        <img src="/images/course/{{ $course['poster'] }}" class="card-img-top"
-                            alt="...">
-
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title"><b>{{ $course['title'] }}</b></h5>
-
-                            <small class="card-text text-muted mb-1">
-                                <a href="#"
-                                    class="card-text text-decoration-none text-muted">{{ $course['mentorName'] }}</a>
-                            </small>
-
-                            <p class="card-text">{{ $course['description'] }}</p>
-
-                            <small class="card-text text-muted">
-                                <i class="bi bi-hourglass-split"></i> {{ $course['duration'] }} weeks long
-                            </small>
-
-                            <a href="courses/{{ $course['slug'] }}"
-                                class="btn btn-primary btn-main btn-custom mt-auto">See
-                                Course</a>
-                        </div>
-                    </div>
-                </div>
-            @endforeach
-
-        </div>
-    </div> --}}
-    <!-- End of Explore Courses -->
-
-
     <div class="container mt-1 p-5">
         <h1 class="text-center p-5 fs-2"> <b>Explore Courses</b></h1>
         <div class="row">
@@ -213,13 +175,14 @@
                                 <small class="text-muted mb-1">
                                     <a href="#"
                                         class="card-text text-decoration-none text-muted xs-font">{{ $course['mentorName'] }}</a>
-                                </small>
-                                <br>
-                                <p class="card-text mb-1">
-                                    <small class="s-font">
+                                    <small class="ms-3 xs-font">
                                         <i class="bi bi-calendar-event me-1"></i>
                                         Saturday, 8 p.m.
                                     </small>
+                                </small>
+                                <br>
+                                <p class="card-text mb-1 fw-bold text-blue">
+                                    Rp 30.000
                                 </p>
                                 <small class="card-text text-muted xs-font">
                                     {{ $course['duration'] }} weeks long
