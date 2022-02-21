@@ -8,3 +8,6 @@
 - Frederic Setievi - 2440092340
 - Jessica Natalia - 2440092403
 - Theodore Raynard Tjhang - 2440093072
+
+### Home Screen 
+<img src="public/images/home.png" width="350"/>
