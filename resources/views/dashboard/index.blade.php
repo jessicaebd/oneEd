@@ -44,6 +44,10 @@
             <div class="orders-profile-border pt-2">
                 <span class="orders-profile">STUDIUM GENERALE: "Entrepreneurship in Time of Crisis"</span>
             </div>
+
+            <div class="mt-2">
+            <button type="button" class="btn btn-custom btn-main px-3">See All History</button>
+            </div>
         </div>
     </div>
 
